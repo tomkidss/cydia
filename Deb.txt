@@ -17,7 +17,7 @@ Homepage: https://cydia.akemi.ai/
 Description: Enables the ability to install unsigned/fakesigned iOS applications.
 Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
 Depiction: https://cydia.akemi.ai/?page/ai.akemi.appsyncunified
-Name: AppSync Unified
+Name: Tomkids.AppSync Unified
 
 Package: com.autopear.lunarcalendar
 Version: 1.8-2
