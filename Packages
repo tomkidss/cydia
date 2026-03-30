@@ -550,6 +550,26 @@ Depiction: http://cydia.gsm.vn/t4316/
 Name: iOS'86
 Sponsor: Cydia.vn Blog's <http://cydia.vn/>
 
+Package: vn.gsm.speedintensifier
+Version: 5.0.3
+Architecture: iphoneos-arm
+Maintainer: Thieu.Bocap <support@gsm.vn>
+Depends: gsmicon, mobilesubstrate, preferenceloader
+Conflicts: jp.novi.fakeclockup, com.hackyouriphone.fakeclockup, com.hackyouriphone.fakeclockupita, com.xsellize.fakeclockup, vn.gsm.fakeclockup
+Filename: debs/vn.gsm.speedintensifier_5.0.3_iphoneos-arm.deb
+Size: 8598
+MD5sum: f59bb3febe49689bba796d44f9da25ac
+SHA1: c0c8b044ba894dc496a81e4838079f462b61f8f9
+SHA256: 035eac1464b959fcbac50bb2ad20ba46fab8a49baae15e5befbbd9561c65c829
+Section: !GSMVN-Tools
+Homepage: http://cydia.vn/
+Description: This tweak will speed up the animation transitions to make your device Look faster.
+Author: Philip Wong <support@gsm.vn>
+Depiction: http://cydia.gsm.vn/t375/
+Icon: file://Library/PreferenceLoader/Preferences/SpeedIntensifier@2x.png
+Name: Speed Intensifier 5
+Sponsor: iPhone GSM.VN <http://gsm.vn/f339/>
+
 Package: vn.gsm.springtomize2
 Version: 1.4.3-1
 Architecture: iphoneos-arm
