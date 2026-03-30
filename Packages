@@ -221,6 +221,23 @@ Icon: file:///Applications/kBatteryDoctor.app/icon.png
 Name: BatteryDoctorPro
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: com.ipr.bytafont
+Version: 1.8
+Architecture: iphoneos-arm
+Maintainer: iPhoneRuler.net <info@iphoneruler.net>
+Depends: firmware (>> 4.2.1), firmware (<< 7)
+Filename: debs/com.ipr.bytafont_1.8_iphoneos-arm.deb
+Size: 269448
+MD5sum: f621307870176247c1c17b2234e6f232
+SHA1: f528e1bf0f57d424a93d908fe95ae3084b48645a
+SHA256: 75e59f3c885c09b6e002fb8f37ecc5185f5db86ef3a2dc884233360549a3c315
+Section: System
+Description: BytaFont lets you apply fonts to your iDevice in few taps.
+Author: iPhoneRuler.net <info@iphoneruler.net>
+Depiction: http://www.iphoneruler.net/depiction/BytaFont/
+Name: BytaFont
+Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
+
 Package: com.ixmoe.1pwn.veteris
 Version: 2.1.1
 Architecture: iphoneos-arm
@@ -477,6 +494,44 @@ Author: Preloading <me@preloading.dev>
 Depiction: https://cydia.preloading.dev/depictions/tubereplacer/1.0/
 Icon: file:///Library/PreferenceBundles/TubeReplacerPrefs.bundle/icon@full.png
 Name: TubeReplacer
+
+Package: kloader
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: tihmstar
+Depends: firmware (>= 6.0)
+Conflicts: cy+cpu.arm64
+Filename: debs/kloader_1.0_iphoneos-arm.deb
+Size: 7988
+MD5sum: 3730e03f701cc7c393c159facd4a031a
+SHA1: 6396b3fbfe2a9db6328b9fb651f90ee8551af11c
+SHA256: 3aa76fbc6e0276da124736f262f099b8322451223df3f08cd45f851d67969996
+Section: System
+Priority: optional
+Homepage: https://github.com/xerub/ios-kexec-utils/blob/master/kloader.c
+Description: Don't install if you don't know what that is
+ Do not install this package if you don't know what this is.
+ Installing this on a production device is not recommended.
+Author: winocm, xerub
+Name: kloader
+
+Package: ldid
+Version: 1:1.2.1
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 272
+Filename: debs/ldid_1.2.1_iphoneos-arm.deb
+Size: 46688
+MD5sum: cd616bccadcdc4b030b42848596905d0
+SHA1: aab2a6d2fc46c379f0c0e5c38cb6b15f43b8e516
+SHA256: eb2eca10616368d6f2ad73a72f309f249438375753b868345b93b59c960ae8ee
+Section: Development
+Priority: optional
+Description: pseudo-codesign Mach-O files
+Tag: purpose::console, role::developer
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/ldid/
+Name: Link Identity Editor
 
 Package: moe.yzu.veterishelper
 Version: 1.0.0-53+debug
