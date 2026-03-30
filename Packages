@@ -1,3 +1,119 @@
+Package: applist
+Version: 1.5.16
+Architecture: iphoneos-arm
+Maintainer: Ryan Petrich <rpetrich@gmail.com>
+Installed-Size: 780
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0), com.rpetrich.rocketbootstrap (>= 1.0.7~beta3) | firmware (<< 7.0)
+Conflicts: com.a3tweaks.polus (<< 2.0.7)
+Filename: debs/applist_1.5.16_iphoneos-arm.deb
+Size: 319702
+MD5sum: 7d54d283f0b8552fc18e3608e9a1cd53
+SHA1: deb8ec1f1a3f68e37719b8dc9faa5fa5d4e1041e
+SHA256: ee67e0c7c56c82a47d86336a94fe2c4e24a122ff94825be1a3c67c5563e42041
+Section: System
+Description: Allow extensions to read the list of installed apps
+Author: Ryan Petrich <rpetrich@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
+Dev: rpetrich
+Name: AppList
+Website: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
+
+Package: apt7
+Version: 0.7.25.3-9
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 1152
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: apt7-key, apt7-lib (>= 0.7.25.3-7), berkeleydb
+Replaces: apt (<< 1:0-1)
+Filename: debs/apt7_0.7.25.3-9_iphoneos-arm.deb
+Size: 347760
+MD5sum: de427b01fb48257f377aa008e2c3b538
+SHA1: 8420d5a2a8b4edd269ff9f225764a32f3dcfe98e
+SHA256: 835060dcd849c3c9a87c791981c5f7e2c02d041f3884c667ef5ea4dd8f5da630
+Section: Packaging
+Priority: standard
+Description: the advanced packaging tool from Debian
+Name: APT 0.7 Strict
+
+Package: apt7-key
+Version: 0.7.25.3-3
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 28
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: apt7-lib (>= 0.7.25.3-7)
+Replaces: apt (<< 1:0-1), apt7 (<< 0.7.20.2-4)
+Filename: debs/apt7-key_0.7.25.3-3_iphoneos-arm.deb
+Size: 3022
+MD5sum: 9438f8cdf3e8863c416f1e4523c0d676
+SHA1: a0bbcd9e4b345dd97161073c8e0b1b9065d51054
+SHA256: c464f4fee8e1fc38759396f3aac050ca0e936d28a953ae2d61e52b56f9b2fac5
+Section: Packaging
+Priority: standard
+Description: repository encryption key management tool
+Name: APT 0.7 (apt-key)
+
+Package: apt7-lib
+Version: 0.7.25.3-16
+Architecture: iphoneos-arm
+Essential: yes
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 1660
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: bzip2, dpkg (>= 1.14.25-9), gnupg, gzip, lzma
+Conflicts: apt7-ssl
+Breaks: cydia (<< 1.1.10), apt7 (<< 0.7.25.3-7), aptitude (<< 0.4.11.11-6)
+Replaces: apt (<< 1:0-1), apt7 (<< 0.7.20.2-3), apt7-ssl
+Provides: apt7-ssl
+Filename: debs/apt7-lib_0.7.25.3-16_iphoneos-arm.deb
+Size: 1773210
+MD5sum: 877e25e4b2708449dc1d608b622eeba0
+SHA1: 6e8d17687746d9760cee7c650a5f25f8c9632948
+SHA256: 2c2785ff613f07aa503c06baebb843deaa530efcf52aabfe1db03fb8a4402cfe
+Section: Packaging
+Priority: required
+Description: the advanced packaging library from Debian
+Name: APT 0.7 Strict (lib)
+
+Package: com.aoi.storefix
+Version: 1.0-6
+Architecture: iphoneos-arm
+Maintainer: aoi_satou
+Depends: firmware (<= 6.1.6)
+Conflicts: com.aoi.storefix
+Filename: debs/com.aoi.storefix_1.0-6_iphoneos-arm.deb
+Size: 826
+MD5sum: 99d656a1e43ffd43f150ddc2feff4dac
+SHA1: 8774dd1e42157ff0fdaad42ac779921b1b86d2b8
+SHA256: f01e99b661c4b7693f5939c12fd14cc49010843889df28a026042be6ac9a912e
+Section: System
+Description: Fixed an issue where iOS 6 and earlier could not connect to the App Store. (Only the host file is rewritten. A restart may be required after installation.) If you applied the patch in the previous version, you may not be able to log in with your Apple ID, so we recommend initializing it.
+Tag: purpose::extension
+Author: aoi_satou
+Depiction: http://aoiblog.jp/appstorefix_history.html
+Dev: aoi_satou
+Name: AppStoreFix
+
+Package: com.arichardson.weepreferenceloader
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: poetic_folly <poetic_folly@modmyi.com>
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/com.arichardson.weepreferenceloader_1.1_iphoneos-arm.deb
+Size: 34568
+MD5sum: cef1b082bc028c22ae0eda383df0e491
+SHA1: f7e773071127ebc8910ca86b1f69b01301aa9f6e
+SHA256: 7ed9065b10acfd0d58c7ac01b69cd921639dc881f4b7087970d9f44ee455117a
+Section: Tweaks
+Priority: extra
+Homepage: http://modmyi.com/info/weepreferenceloader.php
+Description: A framework to easily add preferences to the Notifications settings.
+Author: Andrew Richardson <andrewr114@gmail.com>
+Depiction: http://modmyi.com/info/weepreferenceloader.d.php
+Name: WeePreferenceLoader
+Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
+
 Package: com.autopear.lunarcalendar
 Version: 1.8-2
 Architecture: iphoneos-arm
@@ -20,6 +136,28 @@ Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=lunarcalen
 Dev: lonelystars
 Icon: file:///Library/PreferenceBundles/LunarCalendar.bundle/LunarCalendar@2x.png
 Name: Lunar Calendar for Notification Center
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.chpwn.weeloader
+Version: 1.4-4
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 99
+Pre-Depends: firmware (>= 5.0)
+Depends: mobilesubstrate
+Filename: debs/com.chpwn.weeloader_1.4-4_iphoneos-arm.deb
+Size: 19432
+MD5sum: d7c86813a2f70b5e249cfdc386881623
+SHA1: 0214ae8331e0f5535f35a17c46036d05968d8288
+SHA256: a32ae1426b929a44d1471c9d0fad784da340992f9a323b342c3729685d58e8f0
+Section: Development
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=weeloaderDp
+Description: Weeeeeeeeeee! Load Wee apps safely.
+Tag: role::developer, purpose::extension, ios7support::1, ios8support::1
+Author: joedj <weeloader@joedj.net>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=weeloaderDp
+Dev: joejordan
+Name: WeeLoader
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.dba-tech.forecast
@@ -372,6 +510,26 @@ Description: A fix for the iOS 7 AppStore! credits to bag.xml and requis for the
 Author: Jyvee <jyveeanimate@jyveegames.org>
 Icon: file:///Library/Application%20Support/org.jyvee8games.itunesfix/Icon.png
 Name: iTunesStoreX7 (BETA)
+
+Package: preferenceloader
+Version: 2.2.6
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 526
+Depends: mobilesubstrate
+Filename: debs/preferenceloader_2.2.6_iphoneos-arm.deb
+Size: 67668
+MD5sum: b0bbc6561c4d9620bd48a8f4248b51f4
+SHA1: d31082a25a57c5ff42c0eb21ac550ba93b2bb885
+SHA256: ab814ae140ed52a5fd3c67d8d9a84523567b6bc6845fe20f1daa541047f2ee21
+Section: System
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preferenceloader2Data
+Description: load preferences in style
+Tag: role::hacker, purpose::library
+Author: Sam Bingner <maintainer@sbdhi.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preferenceloader2Data
+Dev: dustinhowett
+Name: PreferenceLoader
 
 Package: repo.biteyourapple.net.paragon
 Version: 1.0.0
