@@ -142,6 +142,23 @@ Maintainer: Linus Yang
 Installed-Size: 344
 Depends: mobilesubstrate
 Conflicts: me.alfhaily.adblockforyoutube
+Filename: debs/com.linusyang.ytbnoad_0.1_iphoneos-arm.deb
+Size: 50678
+MD5sum: e3e71af7b46b3599d258b5c526a1b035
+SHA1: 36e507b3e7d9b6dd72358d762dd89d77649f14db
+SHA256: da2c33c55c1c049e2db7db6928fdc9178cce0632afa5dad5ed06031dc104fec3
+Section: Tweaks
+Description: remove ads in Youtube app
+Author: Linus Yang
+Name: YoutubeNoAd
+
+Package: com.linusyang.ytbnoad
+Version: 0.1
+Architecture: iphoneos-arm
+Maintainer: Linus Yang
+Installed-Size: 344
+Depends: mobilesubstrate
+Conflicts: me.alfhaily.adblockforyoutube
 Filename: debs/tomkids.ytbnoad_0.1_iphoneos-arm.deb
 Size: 50654
 MD5sum: 39e43deaa545fc126991b2fe2343d4c4
@@ -247,11 +264,43 @@ Architecture: iphoneos-arm
 Maintainer: Tuanem
 Installed-Size: 40
 Depends: mobilesubstrate
+Filename: debs/com.tuanem.ytbackground_1.0_iphoneos-arm.deb
+Size: 4990
+MD5sum: 93e7ac8e7d8393f318977bfe87f1f8ac
+SHA1: 86be0940de4628a8de2cf0686ca9c872806b748d
+SHA256: 8ea4e3c8163d7ee030158d6fadd25cdd91cf19c081349c3f0ba913a3ba427ff3
+Section: Tweaks
+Description: Background Playback for YouTube 1.0.0+
+Author: Tuanem
+Name: YTBackground
+
+Package: com.tuanem.ytbackground
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Tuanem
+Installed-Size: 40
+Depends: mobilesubstrate
 Filename: debs/tomkids.ytbackground_1.0_iphoneos-arm.deb
 Size: 4990
 MD5sum: 93e7ac8e7d8393f318977bfe87f1f8ac
 SHA1: 86be0940de4628a8de2cf0686ca9c872806b748d
 SHA256: 8ea4e3c8163d7ee030158d6fadd25cdd91cf19c081349c3f0ba913a3ba427ff3
+Section: Tweaks
+Description: Background Playback for YouTube 1.0.0+
+Author: Tuanem
+Name: YTBackground
+
+Package: com.tuanem.ytbackground
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: Tuanem
+Installed-Size: 40
+Depends: mobilesubstrate
+Filename: debs/com.tuanem.ytbackground_1.1_iphoneos-arm.deb
+Size: 5118
+MD5sum: 8f9f2f630990dd881b5323be5f68a4bd
+SHA1: 84efb60e83e84ba6ecfb33df9ba39609687c3f56
+SHA256: 9fec3d8ea6385507582c1defffa6bd5a398076512934f83370e391d4711cb958
 Section: Tweaks
 Description: Background Playback for YouTube 1.0.0+
 Author: Tuanem
@@ -627,4 +676,3 @@ Description: theme manager, used by most themes
 Author: Jay Freeman (saurik) <saurik@saurik.com>
 Depiction: http://cydia.saurik.com/info/winterboard/
 Name: WinterBoard
-
