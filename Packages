@@ -550,6 +550,25 @@ Depiction: http://cydia.gsm.vn/t4316/
 Name: iOS'86
 Sponsor: Cydia.vn Blog's <http://cydia.vn/>
 
+Package: vn.gsm.jukebox
+Version: 1.6.3
+Architecture: iphoneos-arm
+Maintainer: Cydia.vn <repo@cydia.vn>
+Depends: gsmicon, firmware (>= 5.0), com.arichardson.weepreferenceloader, com.chpwn.weeloader
+Filename: debs/vn.gsm.jukebox_1.6.3_iphoneos-arm.deb
+Size: 401318
+MD5sum: a86058a20d4a2efa47fa61ad66ae4bc1
+SHA1: e915a17219c9fa3030cef4954fb1ad9dc0c300c9
+SHA256: cc2b8550bffd3539369ceb6ad614da3b5dbafae0ff115654eb1bbb42bd7a6d05
+Section: !GSMVN-Tools
+Homepage: http://cydia.vn/
+Description: Control your music from the NC.
+Author: aricha
+Depiction: http://cydia.gsm.vn/t2863/
+Icon: file:///Library/WeeLoader/Plugins/Jukebox.bundle/MusicAppIcon.png
+Name: Jukebox
+Sponsor: Cydia.vn Blog's <http://cydia.vn/>
+
 Package: vn.gsm.speedintensifier
 Version: 5.0.3
 Architecture: iphoneos-arm
