@@ -1,3 +1,24 @@
+Package: ai.akemi.appsyncunified
+Version: 110.0
+Architecture: iphoneos-arm
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Installed-Size: 700
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 16.3.1)
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, technology.goated.appsync, technology.goated.appsyncunified, vaginalfisting.appsynctool, science.xnu.substitute
+Replaces: us.hackulo.appsync50, net.angelxwind.appsyncunified
+Provides: appsync, net.angelxwind.appsyncunified
+Filename: debs/ai.akemi.appsyncunified_110.0_iphoneos-arm.deb
+Size: 56628
+MD5sum: 3ba5afb7e0f7ca904de71a64b68c2308
+SHA1: 99a3ab1d1d8f809391123f10f1713c6aa3135a95
+SHA256: 32a2484ebcb15e8d9864a6149f8b272982c0248996177eedcc9dbe2e8b225259
+Section: Tweaks
+Homepage: https://cydia.akemi.ai/
+Description: Enables the ability to install unsigned/fakesigned iOS applications.
+Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
+Depiction: https://cydia.akemi.ai/?page/ai.akemi.appsyncunified
+Name: AppSync Unified
+
 Package: applist
 Version: 1.5.16
 Architecture: iphoneos-arm
@@ -75,6 +96,24 @@ Section: Packaging
 Priority: required
 Description: the advanced packaging library from Debian
 Name: APT 0.7 Strict (lib)
+
+Package: bag.xml.tuberepair
+Version: 1.2-Beta-1
+Architecture: iphoneos-arm
+Maintainer: bag.xml, Requis
+Installed-Size: 216
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/bag.xml.tuberepair_1.2-Beta-1_iphoneos-arm.deb
+Size: 100100
+MD5sum: 7e87abbb71e53e4b7c343c10e3f7492b
+SHA1: 18ec40d4ff566617d697c380e402775b3cc9d028
+SHA256: 1cad9baca3f52a1cf6b7b8e8272aa3c704a07224fdd5fcb32eb62731decf77f2
+Section: Tweaks
+Description: TubeRepair is a tweak that redirects YouTube API traffic from the classic YouTube app, and the App Store YouTube app to a designated custom server. You could also just say that it fixes both applications. For assistance refer to the guide (https://tuberepair.bag-xml.com/guide/)
+Author: bag.xml, Requis
+Depiction: http://cydia.skyglow.es/depictions/com.skyglow.tuberepair/depictions/index.html
+Icon: file:///Library/Application%20Support/bag.xml.tuberepair/TubeRepair-Icon.png
+Name: TubeRepair [BETA]
 
 Package: com.aoi.storefix
 Version: 1.0-6
@@ -159,6 +198,38 @@ Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=weeloaderD
 Dev: joejordan
 Name: WeeLoader
 Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.coolbooter.cbuntether
+Version: 1.0-release
+Architecture: iphoneos-arm
+Maintainer: CoolBooter <coolbooterios@gmail.com>
+Depends: mobilesubstrate
+Filename: debs/com.coolbooter.cbuntether_1.0-release_iphoneos-arm.deb
+Size: 51752
+MD5sum: e5e5125feee6add2998ed40074ee9a8a
+SHA1: b6510cb2f88a5b288f2ac10d2f9c38476ce324f0
+SHA256: cee993c84decb15efb8b1e0dbbbd9cea816890b92634be8d880c6ecefcaf0e0c
+Section: System
+Description: "Untethers" an existing CoolBooter install
+ CoolBooter Untetherer is an extension for CoolBooter that allows the user to boot into their second OS automatically.
+ To disable the untether, hold volume down during boot.
+Author: CoolBooter <coolbooterios@gmail.com>
+Name: CoolBooter Untetherer
+
+Package: com.coolbooter.coolbooter
+Version: 1.5-release
+Architecture: iphoneos-arm
+Maintainer: CoolBooter <coolbooterios@gmail.com>
+Depends: xpwn, zip, unzip, ldid, diskdev-cmds, firmware (>= 7.0)
+Filename: debs/com.coolbooter.coolbooter_1.5-release_iphoneos-arm.deb
+Size: 28622358
+MD5sum: 27803f19dbaa1d2c7ac15f8fb64c6b08
+SHA1: 8ce01f29de10087f9f12bc942d57281568f98c01
+SHA256: 1a65c19bdae1627de6fd5ec281ca72bbe13de47dc9f66a3d89018af3abc24786
+Section: System
+Description: CoolBooter is an all-in-one dual booting utility for jailbroken 32 bit iOS devices.
+Author: CoolBooter <coolbooterios@gmail.com>
+Name: CoolBooter
 
 Package: com.dba-tech.forecast
 Version: 2.0.2-12
@@ -620,27 +691,6 @@ Author: BYA Repository
 Depiction: http://repo.biteyourapple.net/depiction/dep.php?name=paragon
 Name: Paragon
 Sponsor: biteyourapple <http://www.biteyourapple.net>
-
-Package: topkids.appsyncunified
-Version: 110.0
-Architecture: iphoneos-arm
-Maintainer: Karen/あけみ <karen@akemi.ai>
-Installed-Size: 700
-Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 16.3.1)
-Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, technology.goated.appsync, technology.goated.appsyncunified, vaginalfisting.appsynctool, science.xnu.substitute
-Replaces: us.hackulo.appsync50, net.angelxwind.appsyncunified
-Provides: appsync, net.angelxwind.appsyncunified
-Filename: debs/tomkids.appsyncunified_110.0_iphoneos-arm.deb
-Size: 39924
-MD5sum: f8b557d9e5cd18490149c75979ae9741
-SHA1: 4c605a0c7b90692cb25184204bd111e3566e4ea7
-SHA256: fe950ff3e6a6879d94243d580c9c6fe58cbc24d1477fdae10ce4527ffad5333b
-Section: Tweaks
-Homepage: https://cydia.akemi.ai/
-Description: Enables the ability to install unsigned/fakesigned iOS applications.
-Author: TomKids Rebuild
-Depiction: https://cydia.akemi.ai/?page/ai.akemi.appsyncunified
-Name: AppSync Unified (TomKids)
 
 Package: uk.invoxiplaygames.checkmatestore
 Version: 1.2
