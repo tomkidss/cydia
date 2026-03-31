@@ -7,7 +7,7 @@ Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 16.3.1)
 Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, technology.goated.appsync, technology.goated.appsyncunified, vaginalfisting.appsynctool, science.xnu.substitute
 Replaces: us.hackulo.appsync50, net.angelxwind.appsyncunified
 Provides: appsync, net.angelxwind.appsyncunified
-Filename: debs/ai.akemi.appsyncunified_110.0_iphoneos-arm.deb
+Filename: debs/tomkids.appsyncunified_110.0_iphoneos-arm.deb
 Size: 56628
 MD5sum: 3ba5afb7e0f7ca904de71a64b68c2308
 SHA1: 99a3ab1d1d8f809391123f10f1713c6aa3135a95
@@ -26,7 +26,7 @@ Maintainer: Ryan Petrich <rpetrich@gmail.com>
 Installed-Size: 780
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0), com.rpetrich.rocketbootstrap (>= 1.0.7~beta3) | firmware (<< 7.0)
 Conflicts: com.a3tweaks.polus (<< 2.0.7)
-Filename: debs/applist_1.5.16_iphoneos-arm.deb
+Filename: debs/tomkids.applist_1.5.16_iphoneos-arm.deb
 Size: 319702
 MD5sum: 7d54d283f0b8552fc18e3608e9a1cd53
 SHA1: deb8ec1f1a3f68e37719b8dc9faa5fa5d4e1041e
@@ -47,7 +47,7 @@ Installed-Size: 1152
 Pre-Depends: dpkg (>= 1.14.25-8)
 Depends: apt7-key, apt7-lib (>= 0.7.25.3-7), berkeleydb
 Replaces: apt (<< 1:0-1)
-Filename: debs/apt7_0.7.25.3-9_iphoneos-arm.deb
+Filename: debs/tomkids.apt7_0.7.25.3-9_iphoneos-arm.deb
 Size: 347760
 MD5sum: de427b01fb48257f377aa008e2c3b538
 SHA1: 8420d5a2a8b4edd269ff9f225764a32f3dcfe98e
@@ -65,7 +65,7 @@ Installed-Size: 28
 Pre-Depends: dpkg (>= 1.14.25-8)
 Depends: apt7-lib (>= 0.7.25.3-7)
 Replaces: apt (<< 1:0-1), apt7 (<< 0.7.20.2-4)
-Filename: debs/apt7-key_0.7.25.3-3_iphoneos-arm.deb
+Filename: debs/tomkids.apt7-key_0.7.25.3-3_iphoneos-arm.deb
 Size: 3022
 MD5sum: 9438f8cdf3e8863c416f1e4523c0d676
 SHA1: a0bbcd9e4b345dd97161073c8e0b1b9065d51054
@@ -87,7 +87,7 @@ Conflicts: apt7-ssl
 Breaks: cydia (<< 1.1.10), apt7 (<< 0.7.25.3-7), aptitude (<< 0.4.11.11-6)
 Replaces: apt (<< 1:0-1), apt7 (<< 0.7.20.2-3), apt7-ssl
 Provides: apt7-ssl
-Filename: debs/apt7-lib_0.7.25.3-16_iphoneos-arm.deb
+Filename: debs/tomkids.apt7-lib_0.7.25.3-16_iphoneos-arm.deb
 Size: 1773210
 MD5sum: 877e25e4b2708449dc1d608b622eeba0
 SHA1: 6e8d17687746d9760cee7c650a5f25f8c9632948
@@ -103,7 +103,7 @@ Architecture: iphoneos-arm
 Maintainer: bag.xml, Requis
 Installed-Size: 216
 Depends: mobilesubstrate, preferenceloader
-Filename: debs/bag.xml.tuberepair_1.2-Beta-1_iphoneos-arm.deb
+Filename: debs/tomkids.tuberepair_1.2-Beta-1_iphoneos-arm.deb
 Size: 100100
 MD5sum: 7e87abbb71e53e4b7c343c10e3f7492b
 SHA1: 18ec40d4ff566617d697c380e402775b3cc9d028
@@ -121,7 +121,7 @@ Architecture: iphoneos-arm
 Maintainer: aoi_satou
 Depends: firmware (<= 6.1.6)
 Conflicts: com.aoi.storefix
-Filename: debs/com.aoi.storefix_1.0-6_iphoneos-arm.deb
+Filename: debs/tomkids.storefix_1.0-6_iphoneos-arm.deb
 Size: 826
 MD5sum: 99d656a1e43ffd43f150ddc2feff4dac
 SHA1: 8774dd1e42157ff0fdaad42ac779921b1b86d2b8
@@ -139,7 +139,7 @@ Version: 1.1
 Architecture: iphoneos-arm
 Maintainer: poetic_folly <poetic_folly@modmyi.com>
 Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/com.arichardson.weepreferenceloader_1.1_iphoneos-arm.deb
+Filename: debs/tomkids.weepreferenceloader_1.1_iphoneos-arm.deb
 Size: 34568
 MD5sum: cef1b082bc028c22ae0eda383df0e491
 SHA1: f7e773071127ebc8910ca86b1f69b01301aa9f6e
@@ -184,7 +184,7 @@ Maintainer: BigBoss <bigboss@thebigboss.org>
 Installed-Size: 99
 Pre-Depends: firmware (>= 5.0)
 Depends: mobilesubstrate
-Filename: debs/com.chpwn.weeloader_1.4-4_iphoneos-arm.deb
+Filename: debs/tomkids.weeloader_1.4-4_iphoneos-arm.deb
 Size: 19432
 MD5sum: d7c86813a2f70b5e249cfdc386881623
 SHA1: 0214ae8331e0f5535f35a17c46036d05968d8288
@@ -204,7 +204,7 @@ Version: 1.0-release
 Architecture: iphoneos-arm
 Maintainer: CoolBooter <coolbooterios@gmail.com>
 Depends: mobilesubstrate
-Filename: debs/com.coolbooter.cbuntether_1.0-release_iphoneos-arm.deb
+Filename: debs/tomkids.coolbooter.cbuntether_1.0-release_iphoneos-arm.deb
 Size: 51752
 MD5sum: e5e5125feee6add2998ed40074ee9a8a
 SHA1: b6510cb2f88a5b288f2ac10d2f9c38476ce324f0
@@ -221,7 +221,7 @@ Version: 1.5-release
 Architecture: iphoneos-arm
 Maintainer: CoolBooter <coolbooterios@gmail.com>
 Depends: xpwn, zip, unzip, ldid, diskdev-cmds, firmware (>= 7.0)
-Filename: debs/com.coolbooter.coolbooter_1.5-release_iphoneos-arm.deb
+Filename: debs/tomkids.coolbooter.coolbooter_1.5-release_iphoneos-arm.deb
 Size: 28622358
 MD5sum: 27803f19dbaa1d2c7ac15f8fb64c6b08
 SHA1: 8ce01f29de10087f9f12bc942d57281568f98c01
@@ -237,7 +237,7 @@ Architecture: iphoneos-arm
 Maintainer: dba Technologies, LLC <support@dba-technologies.com>
 Depends: mobilesubstrate, com.arichardson.weepreferenceloader, firmware (>= 5.0)
 Conflicts: com.ashman.clockhide, gsc.ipad
-Filename: debs/com.dba-tech.forecast_2.0.2-12_iphoneos-arm.deb
+Filename: debs/tomkids.forecast_2.0.2-12_iphoneos-arm.deb
 Size: 23108
 MD5sum: 5b01a999f795d60ea23bb9ebdde90716
 SHA1: 0a373efc0fa7877c7f667054d28e2ea34543ecdf
@@ -256,7 +256,7 @@ Version: 3.3.1k
 Architecture: iphoneos-arm
 Maintainer: iLeoLion <repo@hackyouriphone.org>
 Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), curl, firmware(<< 8.0) | org.coolstar.libclassictelephonyui (>= 1.1-1)
-Filename: debs/org.coolstar.classiclockscreen_3.3.1_iphoneos-arm.deb
+Filename: debs/tomkids.classiclockscreen_3.3.1_iphoneos-arm.deb
 Size: 736186
 MD5sum: 7d5da71444883fec6d4273860d981ca3
 SHA1: 3959241070d7b0a0cd41b21a733aaa70351962e1
@@ -297,7 +297,7 @@ Version: 1.8
 Architecture: iphoneos-arm
 Maintainer: iPhoneRuler.net <info@iphoneruler.net>
 Depends: firmware (>> 4.2.1), firmware (<< 7)
-Filename: debs/com.ipr.bytafont_1.8_iphoneos-arm.deb
+Filename: debs/tomkids.bytafont_1.8_iphoneos-arm.deb
 Size: 269448
 MD5sum: f621307870176247c1c17b2234e6f232
 SHA1: f528e1bf0f57d424a93d908fe95ae3084b48645a
@@ -382,7 +382,7 @@ Version: 1.0.1
 Architecture: iphoneos-arm
 Maintainer: LukeZGD
 Depends: org.tihmstar.kdfuapp
-Filename: debs/com.lukezgd.kdfubundles_1.0.1_iphoneos-arm.deb
+Filename: debs/tomkids.kdfubundles_1.0.1_iphoneos-arm.deb
 Size: 10724
 MD5sum: a377d45f5231e6506b90e2e9aefc3d2d
 SHA1: 09d20f50bf41dbc5b177211d1a00d23704da4ca8
@@ -435,7 +435,7 @@ Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: Pierre-Marc Bonneau <pierremarc_999@hotmail.com>
 Installed-Size: 364 Ko
-Filename: debs/com.pmbonneau.ios5bootstrap_1.0_iphoneos-arm.deb
+Filename: debs/tomkids.ios5bootstrap_1.0_iphoneos-arm.deb
 Size: 98706
 MD5sum: d5c593cc7362a2d5de24319156ddd9ea
 SHA1: 9c5bae87c3c9ddf7a9a561207e8079efdfce6df6
@@ -452,7 +452,7 @@ Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: Pierre-Marc Bonneau <pierremarc_999@hotmail.com>
 Installed-Size: 333 Ko
-Filename: debs/com.pmbonneau.ios6bootstrap_1.0_iphoneos-arm.deb
+Filename: debs/tomkids.ios6bootstrap_1.0_iphoneos-arm.deb
 Size: 66300
 MD5sum: 21b3df6e70a70ec916293c0d530b1931
 SHA1: 75795d7eadac2051d485d3db2c26e2583152e6e3
@@ -486,7 +486,7 @@ Version: 1.0-1+debug
 Architecture: iphoneos-arm
 Maintainer: tuanem
 Installed-Size: 1444
-Filename: debs/com.tuanem.shshchecker_1.0_iphoneos-arm.deb
+Filename: debs/tomkids.shshchecker_1.0_iphoneos-arm.deb
 Size: 340310
 MD5sum: d893f5ffde5f8a14cbd3537d868f0e3b
 SHA1: e373d21046327e5ab5e7e07cad4fc05e246fc1a8
@@ -572,7 +572,7 @@ Architecture: iphoneos-arm
 Maintainer: tihmstar
 Depends: firmware (>= 6.0)
 Conflicts: cy+cpu.arm64
-Filename: debs/kloader_1.0_iphoneos-arm.deb
+Filename: debs/tomkids.kloader_1.0_iphoneos-arm.deb
 Size: 7988
 MD5sum: 3730e03f701cc7c393c159facd4a031a
 SHA1: 6396b3fbfe2a9db6328b9fb651f90ee8551af11c
@@ -591,7 +591,7 @@ Version: 1:1.2.1
 Architecture: iphoneos-arm
 Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
 Installed-Size: 272
-Filename: debs/ldid_1.2.1_iphoneos-arm.deb
+Filename: debs/tomkids.ldid_1.2.1_iphoneos-arm.deb
 Size: 46688
 MD5sum: cd616bccadcdc4b030b42848596905d0
 SHA1: aab2a6d2fc46c379f0c0e5c38cb6b15f43b8e516
@@ -625,7 +625,7 @@ Version: 7.1.0.2
 Architecture: iphoneos-arm
 Maintainer: KawaiiZenbo
 Depends: coreutils, gawk, grep, bash, coreutils-bin, system-cmds, darwintools
-Filename: debs/neofetch.deb
+Filename: debs/tomkids.neofetch.deb
 Size: 86880
 MD5sum: 5321d5d7158571ce3ca54e8900d89fb6
 SHA1: 2d0f8ed382266bf162fc2830cc14cbf86a2efa86
@@ -641,7 +641,7 @@ Architecture: iphoneos-arm
 Maintainer: LegacyGuides <admin@legacyios.com>
 Installed-Size: 464
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 7.0)
-Filename: debs/org.jyvee8games.itunesfix_0.1-5+debug_iphoneos-arm.deb
+Filename: debs/tomkids.itunesfix_0.1-5+debug_iphoneos-arm.deb
 Size: 95028
 MD5sum: cb7ae2018934af5c4084da671940dc3b
 SHA1: f2e10f114eebcc06a18bd736e584d03e61e5695b
@@ -658,7 +658,7 @@ Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Installed-Size: 526
 Depends: mobilesubstrate
-Filename: debs/preferenceloader_2.2.6_iphoneos-arm.deb
+Filename: debs/tomkids.preferenceloader_2.2.6_iphoneos-arm.deb
 Size: 67668
 MD5sum: b0bbc6561c4d9620bd48a8f4248b51f4
 SHA1: d31082a25a57c5ff42c0eb21ac550ba93b2bb885
@@ -679,7 +679,7 @@ Maintainer: Redenfire <redenfire@gmail.com>
 Depends: firmware (>= 6.0), mobilesubstrate, com.wynd.dreamboard
 Conflicts: com.zmaster.androidlockxt, repo.biteyourapple.net.androidlockxt
 Replaces: com.zmaster.androidlockxt, repo.biteyourapple.net.androidlockxt
-Filename: debs/paragon_1.0.0_iphoneos-arm.paragon.deb
+Filename: debs/tomkids.paragon_1.0.0_iphoneos-arm.paragon.deb
 Size: 2113572
 MD5sum: 78a926860ca9ac8f47e4204c62cb7a88
 SHA1: 87528a1f1b006fd909650f8d5ef2b54f6e149920
@@ -698,7 +698,7 @@ Architecture: iphoneos-arm
 Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
 Installed-Size: 164
 Depends: mobilesubstrate, firmware (>= 2.0)
-Filename: debs/uk.invoxiplaygames.checkmatestore_1.2_iphoneos-arm.deb
+Filename: debs/tomkids.checkmatestore_1.2_iphoneos-arm.deb
 Size: 8412
 MD5sum: 1d357394263dba78465037afc9407b30
 SHA1: 61e7d891032b62d49cbaeb68357a7eb26dc9b48d
@@ -850,7 +850,7 @@ Version: 1.6.3
 Architecture: iphoneos-arm
 Maintainer: Cydia.vn <repo@cydia.vn>
 Depends: gsmicon, firmware (>= 5.0), com.arichardson.weepreferenceloader, com.chpwn.weeloader
-Filename: debs/vn.gsm.jukebox_1.6.3_iphoneos-arm.deb
+Filename: debs/tomkids.jukebox_1.6.3_iphoneos-arm.deb
 Size: 401318
 MD5sum: a86058a20d4a2efa47fa61ad66ae4bc1
 SHA1: e915a17219c9fa3030cef4954fb1ad9dc0c300c9
@@ -870,7 +870,7 @@ Architecture: iphoneos-arm
 Maintainer: Thieu.Bocap <support@gsm.vn>
 Depends: gsmicon, mobilesubstrate, preferenceloader
 Conflicts: jp.novi.fakeclockup, com.hackyouriphone.fakeclockup, com.hackyouriphone.fakeclockupita, com.xsellize.fakeclockup, vn.gsm.fakeclockup
-Filename: debs/vn.gsm.speedintensifier_5.0.3_iphoneos-arm.deb
+Filename: debs/tomkids.speedintensifier_5.0.3_iphoneos-arm.deb
 Size: 8598
 MD5sum: f59bb3febe49689bba796d44f9da25ac
 SHA1: c0c8b044ba894dc496a81e4838079f462b61f8f9
