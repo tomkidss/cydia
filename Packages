@@ -654,6 +654,40 @@ Description: A command-line system information tool written in bash 3.2+ from ht
 Author: dylanaraps
 Name: neofetch
 
+Package: openssh
+Version: 6.7p1-13
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 4736
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: openssl
+Filename: debs/openssh_6.7p1-13_iphoneos-arm.deb
+Size: 2374426
+MD5sum: e8268b65cd4fdb46b1cdc898140eedaf
+SHA1: 7ac68378e5b305470072f51bb826be8546de718f
+SHA256: 5371f33b94e06771f7dce6c73b721c81921b477459c3a0528f304ff39a1db533
+Section: Networking
+Priority: important
+Description: secure remote access between machines
+Depiction: http://cydia.saurik.com/info/openssh/
+Name: OpenSSH
+
+Package: openssl
+Version: 0.9.8zg-13
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 6164
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: debs/openssl_0.9.8zg-13_iphoneos-arm.deb
+Size: 2601766
+MD5sum: 3e67bb99eed8af4705fbed4d1d7813bd
+SHA1: 516798ade00d85e5fe7a708a20e010ca7ccee243
+SHA256: 986d4e822672d4900d7df8663991900bae56ca3065be167d878624e3869df86b
+Section: Security
+Priority: standard
+Description: SSL library and cryptographic tools
+Name: OpenSSL
+
 Package: org.altervista.exilecom.icleaner
 Version: 7.10.0
 Architecture: iphoneos-arm
