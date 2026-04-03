@@ -377,21 +377,6 @@ Description: remove ads in Youtube app
 Author: Linus Yang
 Name: YoutubeNoAd
 
-Package: com.lukezgd.kdfubundles
-Version: 1.0.1
-Architecture: iphoneos-arm
-Maintainer: LukeZGD
-Depends: org.tihmstar.kdfuapp
-Filename: debs/tomkids.kdfubundles_1.0.1_iphoneos-arm.deb
-Size: 10724
-MD5sum: a377d45f5231e6506b90e2e9aefc3d2d
-SHA1: 09d20f50bf41dbc5b177211d1a00d23704da4ca8
-SHA256: e9f9cd827628f606510c8645d2aa25f695b08b629d7e06998639b55a414b6fef
-Section: System
-Description: More device support for kDFUApp
-Author: LukeZGD
-Name: kDFUApp Bundles
-
 Package: com.officialscheduler.mterminal
 Version: 1.4-5
 Architecture: iphoneos-arm
@@ -499,6 +484,50 @@ Description: Fix iOS's weather app from iPhoneOS 2 to iOS 7, the weather widget 
 Author: Requis
 Depiction: http://cydia.skyglow.es/depictions/com.skyglow.weatherx/depictions/index.html
 Name: WeatherX
+
+Package: com.tqm-mos.kdfuapp
+Version: 1.0.3
+Architecture: iphoneos-arm
+Maintainer: @tqmmos
+Depends: openssl, libcrippy-1.0.0, libpartialzip-1.0.0, curl, kloader, com.tqm-mos.kdfubundles, firmware (>= 6.0), firmware (<= 9.3.6)
+Conflicts: org.tihmstar.kdfuapp
+Provides: org.tihmstar.kdfuapp
+Filename: debs/tomkids.kdfuapp_1.0.3_iphoneos-arm.deb
+Size: 80412
+MD5sum: 26def507bfe5b24371e2572f499512b5
+SHA1: 002d3a297430ac1b90fa9c0e9eab2555a3d3bb2c
+SHA256: 596d6e426053dd9a018dd1bc27f871e5e43d810310c182f371f787c4eb3f7658
+Section: System
+Priority: optional
+Homepage: https://tqm-mos.com/info/kDFUApp/?p=info
+Description: DFUApp là một cách dễ dàng để vào chế độ kDFU , chỉ cần kích hoạt tất cả các công tắc và nhấn nút , KHÔNG TƯƠNG THÍCH VỚI THIẾT BỊ 64BIT!
+Author: tihmstar
+Depiction: https://tqm-mos.com/info/kDFUApp/?p=info
+Dev: tihmstar
+Name: kDFUApp
+Sileodepiction: https://tqm-mos.com/info/kDFUApp.json
+Website: https://tqm-mos.com/info/kDFUApp/?p=info
+
+Package: com.tqm-mos.kdfubundles
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: @tqmmos
+Depends: com.tqm-mos.kdfuapp
+Conflicts: com.lukezgd.kdfubundles
+Provides: com.lukezgd.kdfubundles
+Filename: debs/tomkids.kdfubundles_1.0.1_iphoneos-arm.deb
+Size: 10836
+MD5sum: 458aaf804819ec3d4c07488e2be65bde
+SHA1: 3304edd4b863214410f21c7dced1e8c034514fc7
+SHA256: d571ca93faa47d7e7a45f31ee992040a5c89b2e99c96360cc599cac08b46607d
+Section: System
+Homepage: https://tqm-mos.com/info/kDFUBundles/?p=info
+Description: Hỗ trợ nhiều thiết bị hơn cho kDFUApp
+Author: LukeZGD
+Depiction: https://tqm-mos.com/info/kDFUBundles/?p=info
+Name: kDFUApp Bundles
+Sileodepiction: https://tqm-mos.com/info/kDFUBundles.json
+Website: https://tqm-mos.com/info/kDFUBundles/?p=info
 
 Package: com.tuanem.shshchecker
 Version: 1.0-1+debug
@@ -661,7 +690,7 @@ Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
 Installed-Size: 4736
 Pre-Depends: dpkg (>= 1.14.25-8)
 Depends: openssl
-Filename: debs/openssh_6.7p1-13_iphoneos-arm.deb
+Filename: debs/tomkids.openssh_6.7p1-13_iphoneos-arm.deb
 Size: 2374426
 MD5sum: e8268b65cd4fdb46b1cdc898140eedaf
 SHA1: 7ac68378e5b305470072f51bb826be8546de718f
@@ -678,7 +707,7 @@ Architecture: iphoneos-arm
 Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
 Installed-Size: 6164
 Pre-Depends: dpkg (>= 1.14.25-8)
-Filename: debs/openssl_0.9.8zg-13_iphoneos-arm.deb
+Filename: debs/tomkids.openssl_0.9.8zg-13_iphoneos-arm.deb
 Size: 2601766
 MD5sum: 3e67bb99eed8af4705fbed4d1d7813bd
 SHA1: 516798ade00d85e5fe7a708a20e010ca7ccee243
@@ -694,7 +723,7 @@ Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Installed-Size: 8217
 Pre-Depends: firmware (>= 4.0), apt | apt7, findutils
-Filename: debs/org.altervista.exilecom.icleaner_7.10.0_iphoneos-arm.deb
+Filename: debs/tomkids.icleaner_7.10.0_iphoneos-arm.deb
 Size: 441104
 MD5sum: 29d73934c5c331be1b0cfa159d5e053c
 SHA1: b2e41272a5a920687ef578706315d11c2f226980
