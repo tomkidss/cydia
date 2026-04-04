@@ -595,20 +595,20 @@ Depiction: https://wiety.github.io/cydia/depictions/?p=com.vsz.redeb
 Name: redeb
 
 Package: dev.preloading.tubereplacer
-Version: 1.0.0
+Version: 1.0.4.3
 Architecture: iphoneos-arm
 Maintainer: Preloading <me@preloading.dev>
-Installed-Size: 556
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 5.0), firmware (<< 10.0)
+Installed-Size: 956
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 5.0), firmware (<< 11.0)
 Conflicts: bag.xml.tuberepair
-Filename: debs/tomkids.tubereplacer_1.0.0_iphoneos-arm.deb
-Size: 200252
-MD5sum: 91fce9438fb8d2c56f6dc511747a0b56
-SHA1: bf735272c4818e9515c4c22f99fd8b9671063e32
-SHA256: 7040c38c8115fb4c73ce7753a09aa6a98b00d907dcaeee40a71cfaea2a8fe210
+Filename: debs/tomkids.tubereplacer_1.0.4.3_iphoneos-arm.deb
+Size: 321868
+MD5sum: ee6f182a5e9be43453cab2f3ed1db624
+SHA1: 75115bd16f43dc0f8ed2be367c64b00df19bb863
+SHA256: 08e07a334d1edbc96c40a787d68a7ea828c9a22ae516cb56d06d6db28c3bb7ff
 Section: Tweaks
 Homepage: https://cydia.preloading.dev/depictions/tubereplacer/1.0/
-Description: A fix for YouTube with sign-in.
+Description: An fix for YouTube with sign-in.
 Author: Preloading <me@preloading.dev>
 Depiction: https://cydia.preloading.dev/depictions/tubereplacer/1.0/
 Icon: file:///Library/PreferenceBundles/TubeReplacerPrefs.bundle/icon@full.png
