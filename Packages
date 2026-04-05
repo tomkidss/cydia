@@ -1114,16 +1114,16 @@ Name: Zephyr
 Sponsor: Cydia.vn Blog's <http://cydia.vn/>
 
 Package: vn.tomkids.tweaks.sayhi
-Version: 1.0.1-1+debug
+Version: 1.0.1-2+debug
 Architecture: iphoneos-arm
 Maintainer: TomKids
-Installed-Size: 268
+Installed-Size: 264
 Depends: mobilesubstrate, preferenceloader
-Filename: debs/vn.tomkids.tweaks.sayhi_1.0.1-1+debug_iphoneos-arm.deb
-Size: 9518
-MD5sum: dc9cbb761486d57c2de8a272b9c48b49
-SHA1: d60dc594d41555ae717ab996d40fdf6ef6e9184a
-SHA256: 893581e3339c961c225c498cb3da8e094d9a6c3a8e9ecba88d678c5d9a377d3c
+Filename: debs/vn.tomkids.tweaks.sayhi_1.0.1-2+debug_iphoneos-arm.deb
+Size: 7838
+MD5sum: eabf04e8277ac43399ccbbf3f423e8ca
+SHA1: 94cab46c4b1ca885b56cce1396e3d15cb617a920
+SHA256: c6c115bad9e78f0e988591bcb32d073eb6a483bb58228c94726b3eb5b3ca2b54
 Section: Tweaks
 Description: Show a custom hello alert inside Settings on iOS 5 to 8.
 Author: TomKids
