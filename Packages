@@ -1129,6 +1129,22 @@ Description: Show a custom hello alert inside Settings on iOS 5 to 8.
 Author: TomKids
 Name: TomKids Say Hi
 
+Package: vn.tomkids.tweaks.sayhi
+Version: 2.0.0-1+debug
+Architecture: iphoneos-arm
+Maintainer: TomKids
+Installed-Size: 256
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/vn.tomkids.tweaks.sayhi_2.0.0-1+debug_iphoneos-arm.deb
+Size: 8486
+MD5sum: 5a6ea3e6fe042a12177512243a86d825
+SHA1: a4775889bdd549b7195e3151d5fff3e7d5de0aff
+SHA256: 35409072703c6322b43edb2346e4b403b1c7c6b25de54101542b186e0292670c
+Section: Tweaks
+Description: Show a customizable hello alert inside Settings on iOS 5 to 8.
+Author: TomKids
+Name: TomKids Say Hi
+
 Package: winterboard
 Version: 0.9.3919
 Architecture: iphoneos-arm
