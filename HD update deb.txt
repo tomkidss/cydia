@@ -1,0 +1,87 @@
+🔁 QUY TRÌNH MỖI LẦN THÊM FILE .deb
+🧭 Bước 1: Copy file .deb vào thư mục
+
+Đặt file mới vào:
+
+cydia/debs/
+
+🧭 Bước 2: Build lại repo (QUAN TRỌNG NHẤT)
+
+Mở Ubuntu (WSL) và chạy:
+
+cd /mnt/d/GitHub/cydia
+dpkg-scanpackages -m debs /dev/null > Packages
+bzip2 -c Packages > Packages.bz2
+apt-ftparchive release . > Release
+
+👉 Đây là bước bắt buộc — nếu không làm thì Cydia không thấy tweak mới
+
+🔍 Kiểm tra nhanh
+cat Packages
+
+👉 Phải thấy tweak mới xuất hiện trong danh sách
+
+🚀 Bước 3: Đưa lên GitHub
+Cách dễ (GitHub Desktop)
+Mở GitHub Desktop
+Commit:
+Add new tweak
+Push
+
+Cách dùng lệnh
+git add .
+git commit -m "Add new tweak"
+git push origin main
+
+🌐 Bước 4: Test
+
+Mở trình duyệt:
+
+https://tomkidss.github.io/cydia/Packages
+
+👉 Kiểm tra có tweak mới chưa
+
+
+🔥 Cách làm nhanh 1 dòng (pro)
+
+Anh có thể dùng luôn:
+cd /mnt/d/GitHub/cydia && dpkg-scanpackages -m debs /dev/null > Packages && bzip2 -c Packages > Packages.bz2 && apt-ftparchive release . > Release && git add . && git commit -m "Update repo" && git push
+
+
+💡 Tự động hóa (khuyên dùng)
+
+Tạo file:
+
+nano update.sh
+
+Dán:
+
+#!/bin/bash
+cd /mnt/d/GitHub/cydia
+dpkg-scanpackages -m debs /dev/null > Packages
+bzip2 -c Packages > Packages.bz2
+apt-ftparchive release . > Release
+git add .
+git commit -m "Update repo"
+git push
+echo "Done!"
+
+Chạy:
+
+bash update.sh
+
+👉 Sau này chỉ cần:
+
+copy .deb
+chạy 1 lệnh là xong
+
+🎯 CHỐT NGẮN GỌN CHO ANH
+
+Mỗi lần thêm tweak:
+
+dpkg-scanpackages -m debs /dev/null > Packages
+bzip2 -c Packages > Packages.bz2
+apt-ftparchive release . > Release
+git add .
+git commit -m "Update"
+git push

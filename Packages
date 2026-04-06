@@ -812,6 +812,22 @@ Author: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
 Depiction: http://cydia.invoxiplaygames.uk/dp/checkmatestore.php
 Name: Checkmate, Store!
 
+Package: vn.dinhle.tweaks.saybye
+Version: 2.0.0-1+debug
+Architecture: iphoneos-arm
+Maintainer: TomKids
+Installed-Size: 256
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/vn.dinhle.tweaks.saybye_2.0.0-1+debug_iphoneos-arm.deb
+Size: 8544
+MD5sum: 0f354a24cb8a7e08766e9ffc8a6f571f
+SHA1: d602c181ba8c11e40d2207155ccb96363ccf27c8
+SHA256: 857c6906b499bf00405ac691185b0976e605894c79c14cacfa5a7e19f5c9f0f2
+Section: Tweaks
+Description: Show a customizable hello alert inside Settings on iOS 5 to 8.
+Author: TomKids
+Name: Đình Lê Say Bye
+
 Package: vn.gsm.auxo.org
 Version: 1.4-2
 Architecture: iphoneos-arm
