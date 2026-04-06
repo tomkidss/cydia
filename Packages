@@ -1130,16 +1130,16 @@ Name: Zephyr
 Sponsor: Cydia.vn Blog's <http://cydia.vn/>
 
 Package: vn.tomkids.tweaks.popuphellosetting
-Version: 2.0.0-1+debug
+Version: 2.0.1-1+debug
 Architecture: iphoneos-arm
 Maintainer: TomKids
-Installed-Size: 244
+Installed-Size: 256
 Depends: mobilesubstrate, preferenceloader
-Filename: debs/vn.tomkids.tweaks.popuphellosetting_2.0.0-1+debug_iphoneos-arm.deb
-Size: 8608
-MD5sum: c92c11bb40dbe2ef26b031438375fe05
-SHA1: dda0e6957453ce962bbb2fb9543f9d3dfcd8f5b6
-SHA256: 36c07c53e186e5e87bc9c85f37e1a7224c76d633b4f6629650e606214ba66366
+Filename: debs/vn.tomkids.tweaks.popuphellosetting_2.0.1-1+debug_iphoneos-arm.deb
+Size: 8542
+MD5sum: d733e4bb0c58601e33c5fd51fba9e394
+SHA1: 0fb211369e27e95333a9d40382a32d8a0429070b
+SHA256: 4f725bba73322685e472e2e708ade4a55013bd636933b7294baa8531e984043a
 Section: Tweaks
 Description: Show a customizable popup inside Settings on iOS 5 to 8.
 Author: TomKids
