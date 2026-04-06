@@ -1135,11 +1135,11 @@ Architecture: iphoneos-arm
 Maintainer: TomKids
 Installed-Size: 256
 Depends: mobilesubstrate, preferenceloader
-Filename: debs/vn.tomkids.tweaks.popuphellosetting_2.0.1-1+debug_iphoneos-arm.deb
-Size: 8542
-MD5sum: d733e4bb0c58601e33c5fd51fba9e394
-SHA1: 0fb211369e27e95333a9d40382a32d8a0429070b
-SHA256: 4f725bba73322685e472e2e708ade4a55013bd636933b7294baa8531e984043a
+Filename: debs/vn.tomkids.tweaks.popuphellosetting_2.0.2-1+debug_iphoneos-arm.deb
+Size: 8748
+MD5sum: 213348fd957730b472e7048862cac3f5
+SHA1: 774f1c7e61c6035741c4eb20a028bd8d5370790a
+SHA256: d7540b0eb3ebf2d687fcb4291e7cd17af285e6818a7a11f8a31bbda1d53626d5
 Section: Tweaks
 Description: Show a customizable popup inside Settings on iOS 5 to 8.
 Author: TomKids
