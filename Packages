@@ -134,6 +134,25 @@ Depiction: http://aoiblog.jp/appstorefix_history.html
 Dev: aoi_satou
 Name: AppStoreFix
 
+Package: com.aoi.storefix6
+Version: 1.0-8
+Architecture: iphoneos-arm
+Maintainer: satou@aoiblog.jp
+Depends: firmware (>= 6.0), firmware (<< 7.0), net.nekokawa.appstorefix, uk.invoxiplaygames.checkmatestore, com.innoying.sbutils
+Conflicts: com.aoi.storefix6
+Filename: debs/com.aoi.storefix6_1.0-8_iphoneos-arm.deb
+Size: 892
+MD5sum: 6516b706e0d839c85e6405ba64696bc7
+SHA1: 15c40d6495eae17e4ac30a68b856d51557337e60
+SHA256: 2f7e76eaea56daa8cdfdaf92f1f5864c2f7503ffac25a4dbbef8a41a81b5d858
+Section: System
+Description: Fixed an issue where iOS 6 and earlier could not connect to the App Store. (Only the host file is rewritten. A restart may be required after installation.) If you applied the patch in the previous version, you may not be able to log in with your Apple ID, so we recommend initializing it.
+Tag: purpose::extension
+Author: satou@aoiblog.jp
+Depiction: http://aoiblog.jp/repo/index_ios6.html
+Dev: aoi_satou
+Name: AppStoreFix(ios6)
+
 Package: com.arichardson.weepreferenceloader
 Version: 1.1
 Architecture: iphoneos-arm
