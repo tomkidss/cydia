@@ -1149,16 +1149,16 @@ Name: Zephyr
 Sponsor: Cydia.vn Blog's <http://cydia.vn/>
 
 Package: vn.tomkids.tweaks.ncmusicpanel
-Version: 3.1.0-2+debug
+Version: 3.1.0-3+debug
 Architecture: iphoneos-arm
 Maintainer: TomKids
 Installed-Size: 2080
 Depends: mobilesubstrate, preferenceloader
-Filename: debs/vn.tomkids.tweaks.ncmusicpanel_3.1.0-2+debug_iphoneos-arm.deb
-Size: 828484
-MD5sum: ff5075d97e5c4312219815c9c8ad0387
-SHA1: 29fab8e3bb3cce5c5682c7219b7b1b8e5931fad3
-SHA256: aadb027acf118213e353089e494f16aee260b7d29dc50e02b97cacbae67f2c83
+Filename: debs/vn.tomkids.tweaks.ncmusicpanel_3.1.0-3+debug_iphoneos-arm.deb
+Size: 828480
+MD5sum: b41f670e559842b2dff12d389737c12a
+SHA1: 7577416bf747e28cdf119560afacb07789141b73
+SHA256: 37ec9b7a258b6865f61eaa3c61187c046aa0696a70e9e4cc14e84bbacc00d021
 Section: Tweaks
 Description: SpringBoard Notification Center style music panel for iOS 5-6 with artwork, controls and preferences.
 Author: TomKids
