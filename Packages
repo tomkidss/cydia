@@ -1197,16 +1197,16 @@ Author: TomKids
 Name: TomKids Say Hi
 
 Package: vn.tomkids.wee.ncmusic
-Version: 1.0.0-1+debug
+Version: 1.0.0-2+debug
 Architecture: iphoneos-arm
 Maintainer: TomKids
-Installed-Size: 132
+Installed-Size: 184
 Depends: firmware (>= 5.0)
-Filename: debs/vn.tomkids.wee.ncmusic_1.0.0-1+debug_iphoneos-arm.deb
-Size: 11812
-MD5sum: b76d02e49525724cc3d5263e557870ee
-SHA1: ae7d1ea7d5f7c6a9e8baa8b9cd38d63f352f9cc8
-SHA256: ec2e7ad188e77b89027f7b7ef21476abf87773e0f353fbb01093fe98f5ad9c13
+Filename: debs/vn.tomkids.wee.ncmusic_1.0.0-2+debug_iphoneos-arm.deb
+Size: 14488
+MD5sum: 0af46b90ca423568c1a5b957a0868348
+SHA1: d4fba628585e28579c3e9425d0cd76e707c8b152
+SHA256: 9167580004f6c171844575caacc8011e1be4dec98bf8c588374d7d0964fd1065
 Section: Tweaks
 Description: Notification Center music widget for iOS 5-6 with artwork, title and playback controls.
 Author: TomKids
