@@ -1149,16 +1149,16 @@ Name: Zephyr
 Sponsor: Cydia.vn Blog's <http://cydia.vn/>
 
 Package: vn.tomkids.tweaks.ncmusicpanel
-Version: 3.0.0-1+debug
+Version: 3.1.0-1+debug
 Architecture: iphoneos-arm
 Maintainer: TomKids
-Installed-Size: 388
-Depends: mobilesubstrate, preferenceloader, firmware (>= 5.0)
-Filename: debs/vn.tomkids.tweaks.ncmusicpanel_3.0.0-1+debug_iphoneos-arm.deb
-Size: 63890
-MD5sum: d16ad9a37b82a27b4539ef016b3a854e
-SHA1: 0fb4793a3585e016fef049bb372048c914808aef
-SHA256: ffdec7fc4e343f6990b92a0b42cc966d664dbca5daf3e1cea9c08eeaa6bfba06
+Installed-Size: 2080
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/vn.tomkids.tweaks.ncmusicpanel_3.1.0-1+debug_iphoneos-arm.deb
+Size: 828846
+MD5sum: ee30235ec6463a03c26f49130341cb60
+SHA1: e75bcb74cbc87b688d2b08c342c6e913c5b1bc6b
+SHA256: 555cee63d4574d2f7f89066d7a356528d5b9c2a5df16c3f24a2ef9538f7530bd
 Section: Tweaks
 Description: SpringBoard Notification Center style music panel for iOS 5-6 with artwork, controls and preferences.
 Author: TomKids
@@ -1211,22 +1211,6 @@ Section: Tweaks
 Description: Show a customizable hello alert inside Settings on iOS 5 to 8.
 Author: TomKids
 Name: TomKids Say Hi
-
-Package: vn.tomkids.wee.ncmusic
-Version: 3.0.0-1+debug
-Architecture: iphoneos-arm
-Maintainer: TomKids
-Installed-Size: 188
-Depends: firmware (>= 5.0)
-Filename: debs/vn.tomkids.wee.ncmusic_3.0.0-1+debug_iphoneos-arm.deb
-Size: 18974
-MD5sum: f298efa4d3119ae05ee378262d0e747b
-SHA1: 475f639cbb104efcdbb61e41ac58aa6f968a369f
-SHA256: e2149a8cedfd16b0ec2e482dbdc8b4ee471ab2f7243ff6e04498d3f62b68d4f3
-Section: Tweaks
-Description: Notification Center music widget for iOS 5-6 with artwork, playback controls, progress bar, gestures and launch actions.
-Author: TomKids
-Name: NCMusicWee
 
 Package: winterboard
 Version: 0.9.3919
