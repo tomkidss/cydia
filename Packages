@@ -1196,6 +1196,22 @@ Description: Show a customizable hello alert inside Settings on iOS 5 to 8.
 Author: TomKids
 Name: TomKids Say Hi
 
+Package: vn.tomkids.wee.ncmusic
+Version: 1.0.0-1+debug
+Architecture: iphoneos-arm
+Maintainer: TomKids
+Installed-Size: 132
+Depends: firmware (>= 5.0)
+Filename: debs/vn.tomkids.wee.ncmusic_1.0.0-1+debug_iphoneos-arm.deb
+Size: 11812
+MD5sum: b76d02e49525724cc3d5263e557870ee
+SHA1: ae7d1ea7d5f7c6a9e8baa8b9cd38d63f352f9cc8
+SHA256: ec2e7ad188e77b89027f7b7ef21476abf87773e0f353fbb01093fe98f5ad9c13
+Section: Tweaks
+Description: Notification Center music widget for iOS 5-6 with artwork, title and playback controls.
+Author: TomKids
+Name: NCMusicWee
+
 Package: winterboard
 Version: 0.9.3919
 Architecture: iphoneos-arm
