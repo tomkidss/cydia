@@ -1050,7 +1050,7 @@ Version: 3.1.3
 Architecture: iphoneos-arm
 Maintainer: Tomkids
 Depends: firmware (< 9.0)
-Filename: debs/tomkids.oldTikTokCN_3.1.3_iphoneos-arm.deb
+Filename: debs/tomkids.OldTikTokCN_3.1.3_iphoneos-arm.deb
 Size: 509304
 MD5sum: a75c62d92299b8a5ed8963a02b868ab1
 SHA1: 0b855ad0bdca9253fc2c6937021c6c81529694d6
