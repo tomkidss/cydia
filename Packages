@@ -1046,6 +1046,22 @@ Dev: bigboss
 Name: sbsettingstoggles
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: tomkids.ChatGPT
+Version: 31.0.2
+Architecture: iphoneos-arm
+Maintainer: Tomkids
+Depends: firmware (< 9.0)
+Filename: debs/tomkids.ChatGPT_31.0.2_iphoneos-arm.deb
+Size: 3550058
+MD5sum: 68617363ac9b084cd8d5943e81e6edf5
+SHA1: 560e5ae1f64736074fd2d01a26c9a167212eabce
+SHA256: a4622040a4147b390da1d5da37bb758caa8eb78bbc431ca506caf30c8dffb4e9
+Section: Applications
+Description: Chat GPT app for Low iOS
+Author: Tomkids
+Icon: https://tomkidss.github.io/cydia/icons/chatgpt.png
+Name: ChatGPT
+
 Package: tomkids.OldTikTokCN
 Version: 3.1.3
 Architecture: iphoneos-arm
