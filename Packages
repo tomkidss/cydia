@@ -1078,6 +1078,22 @@ Author: Tomkids
 Icon: https://tomkidss.github.io/cydia/icons/oldtiktokcn.png
 Name: OldTikTokCN
 
+Package: tomkids.flacplayer
+Version: 1.8
+Architecture: iphoneos-arm
+Maintainer: Tomkids
+Depends: firmware (< 9.0)
+Filename: debs/tomkids.flacplayer_1.8_iphoneos-arm.deb
+Size: 3377030
+MD5sum: 8f92c0d96f951e808c9a2ae7507c4b66
+SHA1: fd135f624f0f7e3e35e16e09b9396b0bebd241dd
+SHA256: 0892249e9b3559a77c1cd1e1f700c7c75486e4c429b6f008536b88dfa581c96d
+Section: Applications
+Description: FLAC Player app for Low iOS
+Author: Tomkids
+Icon: http://tomkidss.github.io/cydia/icons/flacplayer.png
+Name: FLAC Player
+
 Package: tomkids.foobar2000
 Version: 1.0.33
 Architecture: iphoneos-arm
