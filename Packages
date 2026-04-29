@@ -1045,6 +1045,21 @@ Dev: bigboss
 Name: sbsettingstoggles
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: tomkids.OldTikTokCN
+Version: 3.1.3
+Architecture: iphoneos-arm
+Maintainer: Tomkids
+Depends: firmware (< 9.0)
+Filename: debs/tomkids.oldTikTokCN_3.1.3_iphoneos-arm.deb
+Size: 509304
+MD5sum: a75c62d92299b8a5ed8963a02b868ab1
+SHA1: 0b855ad0bdca9253fc2c6937021c6c81529694d6
+SHA256: f4208d0fca7353b46daf242006f6df78ddc3d3483e61dd1a945c4f6cadd4bc4e
+Section: Applications
+Description: TikTok CN app for Low iOS
+Author: Tomkids
+Name: OldTikTokCN
+
 Package: tomkids.iBooks
 Version: 3.1.3
 Architecture: iphoneos-arm
