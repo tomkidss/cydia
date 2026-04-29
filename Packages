@@ -437,26 +437,11 @@ Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: Long
 Depends: firmware (>= 6.0)
-Filename: debs/com.long.ledaudio_1.0_iphoneos-arm.deb
+Filename: debs/tomkids.ledaudio_1.0-1_iphoneos-arm.deb
 Size: 2071650
-MD5sum: c736c3e20e0bc168ce118560fa25b6e6
-SHA1: 7298988f7ed8b8db21a93679ab53dc327049b1ea
-SHA256: 784ed21240fb11c1f1152340e26ae5d1ab632ed7e1ff8d212832b74c35c98e45
-Section: Applications
-Description: LED audio visualizer app for iOS
-Author: Long
-Name: LED Audio
-
-Package: com.long.ledaudio
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: Long
-Depends: firmware (>= 6.0)
-Filename: debs/tomkids.LedAudioDeb.deb
-Size: 1654634
-MD5sum: 5fa5c39362fc826197d473b36651353a
-SHA1: a6432c6436dc11644d4027e473eabdef651ca635
-SHA256: 2bedc17ea4e80e2bfbef83fe52e2af006d4f984689b18f997db54154b0d9b7bb
+MD5sum: 900c587f139f3fcce861291be9cad063
+SHA1: 4063e8e5bfa7451ae604114ec796a8e234e822cc
+SHA256: 93ea58fd03b655adcc50191f1527fc5739641c37b3fcea9fcb30b837a712d88e
 Section: Applications
 Description: LED audio visualizer app for iOS
 Author: Long
