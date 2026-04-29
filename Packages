@@ -1078,6 +1078,22 @@ Author: Tomkids
 Icon: https://tomkidss.github.io/cydia/icons/oldtiktokcn.png
 Name: OldTikTokCN
 
+Package: tomkids.foobar2000
+Version: 1.0.33
+Architecture: iphoneos-arm
+Maintainer: Tomkids
+Depends: firmware (< 9.0)
+Filename: debs/tomkids.foobar2000_1.0.33_iphoneos-arm.deb
+Size: 11914118
+MD5sum: a9658acbb6bf74d288a89ac942e2e3ff
+SHA1: 8b1bf7bf41917e102f046722fc19d9efaaf6157a
+SHA256: 13ca54fb4ca5c8581122bb0e53fead88e7e659bdd24a9519c836cfdc67dbefad
+Section: Applications
+Description: Foobar2000 app for Low iOS
+Author: Tomkids
+Icon: https://tomkidss.github.io/cydia/icons/foobar2000.png
+Name: Foobar2000
+
 Package: tomkids.iBooks
 Version: 3.1.3
 Architecture: iphoneos-arm
