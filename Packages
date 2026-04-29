@@ -1045,6 +1045,21 @@ Dev: bigboss
 Name: sbsettingstoggles
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: tomkids.iBooks
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Tomkids
+Depends: firmware (< 7.0)
+Filename: debs/tomkids.iBooks_1.0_iphoneos-arm.deb
+Size: 29766550
+MD5sum: fb0fd367eeef69543555eac90531496c
+SHA1: 2cdceaf88dc3aac6473b4eddcd6b18223bfa6855
+SHA256: 928d99dfdf4ea7bcc405042aadd19d94fe831322af62f0f06bf3d5ffbbd569bd
+Section: Applications
+Description: iBooks app for Low iOS
+Author: Tomkids
+Name: iBooks_IOS6
+
 Package: uk.invoxiplaygames.checkmatestore
 Version: 1.2
 Architecture: iphoneos-arm
