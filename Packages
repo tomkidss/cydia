@@ -433,18 +433,18 @@ Author: Linus Yang
 Name: YoutubeNoAd
 
 Package: com.long.ledaudio
-Version: 1.0
+Version: 1.0-1
 Architecture: iphoneos-arm
-Maintainer: Long
+Maintainer: Tomkids
 Depends: firmware (>= 6.0)
 Filename: debs/tomkids.ledaudio_1.0-1_iphoneos-arm.deb
-Size: 2071650
-MD5sum: 900c587f139f3fcce861291be9cad063
-SHA1: 4063e8e5bfa7451ae604114ec796a8e234e822cc
-SHA256: 93ea58fd03b655adcc50191f1527fc5739641c37b3fcea9fcb30b837a712d88e
+Size: 2076118
+MD5sum: c3e62410407ab257dccb15707a87a236
+SHA1: 929cd64c7483c394265a7654415a857b71f20f70
+SHA256: d3a8e006c1c5e088bdda3114e5bb663e3aebb582ef51645cc8f1f6146d5139e6
 Section: Applications
 Description: LED audio visualizer app for iOS
-Author: Long
+Author: Tomkids
 Name: LED Audio
 
 Package: com.modmyi.serioussbsettingshd
