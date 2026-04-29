@@ -1060,6 +1060,21 @@ Description: iBooks app for Low iOS
 Author: Tomkids
 Name: iBooks_IOS6
 
+Package: tomkids.nhaccuatui
+Version: 5.3.1
+Architecture: iphoneos-arm
+Maintainer: Tomkids
+Depends: firmware (< 9.0)
+Filename: debs/tomkids.nhaccuatui_5.3.1_iphoneos-arm.deb
+Size: 16604276
+MD5sum: 6e864a10e0f184bb53e346ca3b81f35b
+SHA1: 1f597b9424a607aca4189aef70068b40f6fd6660
+SHA256: 5cc0494b3f8ad0f3099b6f4a3706c535468c6cf5df7e4cd1d55e1135e576f159
+Section: Applications
+Description: Nhạc của tui cho IOS thấp
+Author: Tomkids
+Name: NhacCuaTui
+
 Package: tomkids.youtube1.3.0
 Version: 1.3.0
 Architecture: iphoneos-arm
