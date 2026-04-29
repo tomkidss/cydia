@@ -1078,6 +1078,22 @@ Author: Tomkids
 Icon: https://tomkidss.github.io/cydia/icons/oldtiktokcn.png
 Name: OldTikTokCN
 
+Package: tomkids.facebook
+Version: 11.0
+Architecture: iphoneos-arm
+Maintainer: Tomkids
+Depends: firmware (< 9.0)
+Filename: debs/tomkids.facebook_11.0_iphoneos-arm.deb
+Size: 40285646
+MD5sum: 05829b96702eb2d40fecec0407d3c49d
+SHA1: bf7d784bf7d7a1b53ec7857c36f67323c425bb11
+SHA256: efc8c37c705da4b4652df52a8244c20d59639d177de955c2563490e678fe50d1
+Section: Applications
+Description: FaceBook app for Low iOS
+Author: Tomkids
+Icon: http://tomkidss.github.io/cydia/icons/facebook.png
+Name: FaceBook
+
 Package: tomkids.flacplayer
 Version: 1.8
 Architecture: iphoneos-arm
