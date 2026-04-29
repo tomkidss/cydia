@@ -432,6 +432,21 @@ Description: remove ads in Youtube app
 Author: Linus Yang
 Name: YoutubeNoAd
 
+Package: com.long.ledaudio
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Long
+Depends: firmware (>= 6.0)
+Filename: debs/tomkids.LedAudioDeb.deb
+Size: 1654634
+MD5sum: 5fa5c39362fc826197d473b36651353a
+SHA1: a6432c6436dc11644d4027e473eabdef651ca635
+SHA256: 2bedc17ea4e80e2bfbef83fe52e2af006d4f984689b18f997db54154b0d9b7bb
+Section: Applications
+Description: LED audio visualizer app for iOS
+Author: Long
+Name: LED Audio
+
 Package: com.modmyi.serioussbsettingshd
 Version: 1.4-1
 Architecture: iphoneos-arm
