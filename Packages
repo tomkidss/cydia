@@ -1110,6 +1110,22 @@ Author: Tomkids
 Icon: https://tomkidss.github.io/cydia/icons/ibooks.png
 Name: iBooks_IOS6
 
+Package: tomkids.ibooks.ipa
+Version: 3.1.3
+Architecture: iphoneos-arm
+Maintainer: Tomkids
+Depends: firmware (< 9.0)
+Filename: debs/tomkids.ibooks.ipa_3.1.3_iphoneos-arm.deb
+Size: 30750484
+MD5sum: 828cc0eecf1252fb8fea68171250f9f2
+SHA1: 4df641833d31dd48804f61ec5143aef959632403
+SHA256: c2472a6e41799aa07e06d4abd76d5c0ba3e49887126b0f97de0504df3e3bc25d
+Section: Applications
+Description: Copy iBooks IPA to /var/mobile/Media/Downloads
+Author: Tomkids
+Icon: https://tomkidss.github.io/cydia/icons/ibooks.png8
+Name: iBooks IPA
+
 Package: tomkids.nhaccuatui
 Version: 5.3.1
 Architecture: iphoneos-arm
