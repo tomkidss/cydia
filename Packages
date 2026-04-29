@@ -438,13 +438,14 @@ Architecture: iphoneos-arm
 Maintainer: Tomkids
 Depends: firmware (>= 6.0)
 Filename: debs/tomkids.ledaudio_1.0-1_iphoneos-arm.deb
-Size: 2076118
-MD5sum: c3e62410407ab257dccb15707a87a236
-SHA1: 929cd64c7483c394265a7654415a857b71f20f70
-SHA256: d3a8e006c1c5e088bdda3114e5bb663e3aebb582ef51645cc8f1f6146d5139e6
+Size: 2076156
+MD5sum: ffdf07336135d64614cc496fff9f5d63
+SHA1: dee0cfad989377f20424b4bc44fdc860bf36a1c3
+SHA256: f9133a84c80836f101f1ab21ca0eabe8ecbc264ec99e2592be87d00489611f70
 Section: Applications
 Description: LED audio visualizer app for iOS
 Author: Tomkids
+Icon: https://tomkidss.github.io/cydia/icons/ledaudio.png
 Name: LED Audio
 
 Package: com.modmyi.serioussbsettingshd
@@ -1050,14 +1051,15 @@ Version: 3.1.3
 Architecture: iphoneos-arm
 Maintainer: Tomkids
 Depends: firmware (< 9.0)
-Filename: debs/tomkids.OldTikTokCN_3.1.3_iphoneos-arm.deb
-Size: 509304
-MD5sum: a75c62d92299b8a5ed8963a02b868ab1
-SHA1: 0b855ad0bdca9253fc2c6937021c6c81529694d6
-SHA256: f4208d0fca7353b46daf242006f6df78ddc3d3483e61dd1a945c4f6cadd4bc4e
+Filename: debs/tomkids.oldTikTokCN_3.1.3-1_iphoneos-arm.deb
+Size: 509344
+MD5sum: 39058016e7431cd89cce352407b5806d
+SHA1: 04b08d016bc3c6119f6ee41922e8f3beb331fc68
+SHA256: 8a4d6eec7ea0c65e15b3d991c1e20028e1bde828e23e6863ed878d63449648cb
 Section: Applications
 Description: TikTok CN app for Low iOS
 Author: Tomkids
+Icon: https://tomkidss.github.io/cydia/icons/oldtiktokcn.png
 Name: OldTikTokCN
 
 Package: tomkids.iBooks
@@ -1065,14 +1067,15 @@ Version: 3.1.3
 Architecture: iphoneos-arm
 Maintainer: Tomkids
 Depends: firmware (< 7.0)
-Filename: debs/tomkids.iBooks_3.1.3_iphoneos-arm.deb
-Size: 29766552
-MD5sum: 0a0cc5296757ef4bdae07705b3f6f323
-SHA1: f77656acabc7b9adf72fe1e2446c664df4ee68f1
-SHA256: da9f09b75b1ef238de7c1d6305064c924c9d3e32e8db64d330db68f20ce5133f
+Filename: debs/tomkids.iBooks_3.1.3-1_iphoneos-arm.deb
+Size: 29766586
+MD5sum: 76d7700188b2b04a29cbb45af557fe43
+SHA1: fd168c2a4d3a48253c909196060cb187c9674965
+SHA256: a7601b171a2ca7fe4fb9ad5adb7787f5efff53d126d9467a6f8bb5a280680850
 Section: Applications
 Description: iBooks app for Low iOS
 Author: Tomkids
+Icon: https://tomkidss.github.io/cydia/icons/ibooks.png
 Name: iBooks_IOS6
 
 Package: tomkids.nhaccuatui
@@ -1080,14 +1083,15 @@ Version: 5.3.1
 Architecture: iphoneos-arm
 Maintainer: Tomkids
 Depends: firmware (< 9.0)
-Filename: debs/tomkids.nhaccuatui_5.3.1_iphoneos-arm.deb
-Size: 16604276
-MD5sum: 6e864a10e0f184bb53e346ca3b81f35b
-SHA1: 1f597b9424a607aca4189aef70068b40f6fd6660
-SHA256: 5cc0494b3f8ad0f3099b6f4a3706c535468c6cf5df7e4cd1d55e1135e576f159
+Filename: debs/tomkids.nhaccuatui_5.3.1-1_iphoneos-arm.deb
+Size: 16604312
+MD5sum: b6c2eade3976000947aa910894eaffee
+SHA1: f6a46c4b29acb8d894f4a2125dd505082e5eae1a
+SHA256: 7be5071663b794a648a3777e1035ab28771da2e6823fc9a0a2789792c635f61d
 Section: Applications
 Description: Nhạc của tui cho IOS thấp
 Author: Tomkids
+Icon: https://tomkidss.github.io/cydia/icons/nhaccuatui.png
 Name: NhacCuaTui
 
 Package: tomkids.youtube1.3.0
@@ -1095,14 +1099,15 @@ Version: 1.3.0
 Architecture: iphoneos-arm
 Maintainer: Tomkids
 Depends: firmware (<= 8.4.1)
-Filename: debs/tomkids.youtube1.3.0_1.3.0_iphoneos-arm.deb
-Size: 6887158
-MD5sum: 881da27b64ab0509b9018b5f7013c7f0
-SHA1: a4517ab0731998c0e0b17893e988be53807b1393
-SHA256: b4813a5590bd434804d27ee3fd825f6407650da3c3cae18715dbc7fabc81ccea
+Filename: debs/tomkids.youtube_1.3.0-1_iphoneos-arm.deb
+Size: 6887196
+MD5sum: 82fb68336068231138cc27dff4e40668
+SHA1: 7ad0e187d8977ec2694bde54454b16beafea6511
+SHA256: 8d064d50ee33530eeabbd97a17c20209735052d4637ddd43096f73a1d0b30294
 Section: Applications
 Description: Youtube app for Low iOS
 Author: Tomkids
+Icon: https://tomkidss.github.io/cydia/icons/youtube.png
 
 Package: uk.invoxiplaygames.checkmatestore
 Version: 1.2
