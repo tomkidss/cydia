@@ -1174,6 +1174,22 @@ Author: Tomkids
 Icon: https://tomkidss.github.io/cydia/icons/nhaccuatui.png
 Name: NhacCuaTui
 
+Package: tomkids.ticktok
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Clone by Tomkids
+Depends: firmware (< 8.0)
+Filename: debs/tomkids.ticktock_1.0_iphoneos-arm.deb
+Size: 8197370
+MD5sum: e22d20e0ff4c1d9589c743ac29358b4d
+SHA1: 954f60e9cbe91e936235f14161c850b15566227e
+SHA256: f9d03b7e5e6b767e697ca810f8720e5222e6cc8d85dd2a3b89e5637fafd9f674
+Section: Applications
+Description: TikTok app for Low iOS
+Author: TikTok
+Icon: http://tomkidss.github.io/cydia/icons/tiktokios6.png
+Name: TikTok
+
 Package: tomkids.ticktok-ios6
 Version: 1.0
 Architecture: iphoneos-arm
