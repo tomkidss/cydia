@@ -1204,6 +1204,22 @@ Description: Youtube app for Low iOS
 Author: Build app to tweak by Tomkids
 Icon: http://tomkidss.github.io/cydia/icons/youtube.png
 
+Package: tomkids.zingmp3
+Version: 3.2.1
+Architecture: iphoneos-arm
+Maintainer: Zing
+Depends: firmware (< 5.0)
+Filename: debs/tomkids.zingmp3_3.2.1_iphoneos-arm.deb
+Size: 4816804
+MD5sum: f82eede1d3352821faa2b7f2c8b00ff3
+SHA1: 13987adc656f35786aad304b0f4700e412d642b4
+SHA256: 056420a89a6df008ca19b72d60443a0c2975ff8628c2f37c574025cdebba9d39
+Section: Applications
+Description: App Zing MP3
+Author: Build app to tweak by Tomkids
+Icon: http://tomkidss.github.io/cydia/icons/zingmp3.png
+Name: Zing MP3
+
 Package: uk.invoxiplaygames.checkmatestore
 Version: 1.2
 Architecture: iphoneos-arm
