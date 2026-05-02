@@ -1208,12 +1208,12 @@ Package: tomkids.zingmp3
 Version: 3.2.1
 Architecture: iphoneos-arm
 Maintainer: Zing
-Depends: firmware (< 5.0)
+Depends: firmware (>= 5.0)
 Filename: debs/tomkids.zingmp3_3.2.1_iphoneos-arm.deb
 Size: 4816804
-MD5sum: f82eede1d3352821faa2b7f2c8b00ff3
-SHA1: 13987adc656f35786aad304b0f4700e412d642b4
-SHA256: 056420a89a6df008ca19b72d60443a0c2975ff8628c2f37c574025cdebba9d39
+MD5sum: 1f6873139da82f5702f0f149d30f9f76
+SHA1: 980b85c58ab352ceeb2dae904d428d35f07ed476
+SHA256: 04fdec58b5b8324e642af86f0416abcbdd1dee31410257d16213f0b7c748975a
 Section: Applications
 Description: App Zing MP3
 Author: Build app to tweak by Tomkids
