@@ -1,21 +1,8 @@
-Date: Sat, 02 May 2026 12:55:22 +0000
-MD5Sum:
- 5c0ec1b0a19f1284d8fc4c5d78f1f928            68258 Packages
- 84f517084bf86aaadacd1e892e2ad7c4            21557 Packages.bz2
- fc498e7ccd8715a7635d6ba6456404c0               38 Release
- b244c8238435977cb8ec37c67f837e99              861 debs/Packages
-SHA1:
- 1009d3633ed9ecff6503bce04ee2d2c8413a2207            68258 Packages
- 1a427e09b983d753235f8194d1ef8e4dd2fd6a5d            21557 Packages.bz2
- 6a2cff29f4326fc24f85e79a8d09e2bdd9a18f79               38 Release
- 83ccf082aaf6a148c66684952e08390cbe494c89              861 debs/Packages
-SHA256:
- 7b5e265bfec4078f108aa38e4c1c0d6db5b346ed91e6523e7906b4efc3ed26af            68258 Packages
- 6e540bf2cd9b60a70d4c7fb1b5d9d3948cb8a2cba08ed48a5fa2b627493801a3            21557 Packages.bz2
- 12930c08473f29f877744b6d05c150e8b8358f7a7a85f1c9c843a01cf3537e0e               38 Release
- 3e2e2b33fa068e5e25d76ae2cd0d7b368264ad468aaadf41cb101c4cf14e74f0              861 debs/Packages
-SHA512:
- b5e59cabffc812fccee81c93aee0a95d5ca8c3ea812d5e29644810cee51712a4e48d152fa20a164a6feee5459695bc52e45ab99bba80ab79d82c870a5ee2255a            68258 Packages
- 14fc024ed0765cb2e3fd3b447cb32006b82860ca7706f38216ee10ab56e6f9a9ed8d729be6e86a33455d829b6e15a84841dd3d85518885565c26fd34d14017eb            21557 Packages.bz2
- ee808dad91009115319d0c2be80c52278958befa71b6e053609101aacb7dbe338c7a6f7702884857f9a122c57681221c8f3e041a84935946541e96ade290680a               38 Release
- d0bac9a9fe0b0e5a2dfde4af2df61f3873c000da27d23d2307c1de289d044cfc7f0bf95c586d948d009888d48fd799dfe18e8daa60578d30984a8c8b38d2610a              861 debs/Packages
+Origin: Tomkids's Cydia
+Label: Tomkids Cydia
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm
+Components: main
+Description: Kho ứng dụng & tweak iOS cổ của Tomkids

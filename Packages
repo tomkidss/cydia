@@ -1204,21 +1204,6 @@ Description: Youtube app for Low iOS
 Author: Build app to tweak by Tomkids
 Icon: http://tomkidss.github.io/cydia/icons/youtube.png
 
-Package: tomkids.youtube1.3.0
-Version: 1.3.0
-Architecture: iphoneos-arm
-Maintainer: Tomkids
-Depends: firmware (<= 8.4.1)
-Filename: debs/tomkids.youtube1.3.0_1.3.0_iphoneos-arm.deb
-Size: 6887192
-MD5sum: a11b6a0eadc88d13c19f923e8f7280d5
-SHA1: f94c9a1cc7423d9507323bfd3ac73f2f3bcba5fd
-SHA256: d46254f6942584ade000cc69ead53c4cb28c3f89606bff3343e4bd7dad6d08f3
-Section: Applications
-Description: Youtube app for Low iOS
-Author: Tomkids
-Icon: http://tomkidss.github.io/cydia/icons/youtube.png
-
 Package: uk.invoxiplaygames.checkmatestore
 Version: 1.2
 Architecture: iphoneos-arm
