@@ -432,22 +432,6 @@ Description: remove ads in Youtube app
 Author: Linus Yang
 Name: YoutubeNoAd
 
-Package: com.long.ledaudio
-Version: 1.0-1
-Architecture: iphoneos-arm
-Maintainer: Tomkids
-Depends: firmware (>= 6.0)
-Filename: debs/tomkids.ledaudio_1.0-1_iphoneos-arm.deb
-Size: 2076156
-MD5sum: ffdf07336135d64614cc496fff9f5d63
-SHA1: dee0cfad989377f20424b4bc44fdc860bf36a1c3
-SHA256: f9133a84c80836f101f1ab21ca0eabe8ecbc264ec99e2592be87d00489611f70
-Section: Applications
-Description: LED audio visualizer app for iOS
-Author: Tomkids
-Icon: https://tomkidss.github.io/cydia/icons/ledaudio.png
-Name: LED Audio
-
 Package: com.modmyi.serioussbsettingshd
 Version: 1.4-1
 Architecture: iphoneos-arm
@@ -908,27 +892,6 @@ Priority: standard
 Description: SSL library and cryptographic tools
 Name: OpenSSL
 
-Package: org.altervista.exilecom.icleaner
-Version: 7.10.0
-Architecture: iphoneos-arm
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 8217
-Pre-Depends: firmware (>= 4.0), apt | apt7, findutils
-Filename: debs/tomkids.icleaner_7.10.0_iphoneos-arm.deb
-Size: 441104
-MD5sum: 29d73934c5c331be1b0cfa159d5e053c
-SHA1: b2e41272a5a920687ef578706315d11c2f226980
-SHA256: 911a7c75dddde1f6d0c7ca35a2f99771d6566f5546926cd0e690d88c4d5ffd78
-Section: Utilities
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=icleanerDp
-Description: The first real iOS system cleanup and management utility
-Tag: purpose::uikit
-Author: Ivano Bilenchi <support@ib-soft.net>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=icleanerDp
-Dev: exilecom
-Icon: file:///Applications/iCleaner.app/Icon.png
-Name: iCleaner
-
 Package: org.jyvee8games.itunesfix
 Version: 0.1-5+debug
 Architecture: iphoneos-arm
@@ -1062,22 +1025,6 @@ Author: Tomkids
 Icon: https://tomkidss.github.io/cydia/icons/chatgpt.png
 Name: ChatGPT
 
-Package: tomkids.OldTikTokCN
-Version: 3.1.3
-Architecture: iphoneos-arm
-Maintainer: Tomkids
-Depends: firmware (< 9.0)
-Filename: debs/tomkids.oldTikTokCN_3.1.3-1_iphoneos-arm.deb
-Size: 509344
-MD5sum: 39058016e7431cd89cce352407b5806d
-SHA1: 04b08d016bc3c6119f6ee41922e8f3beb331fc68
-SHA256: 8a4d6eec7ea0c65e15b3d991c1e20028e1bde828e23e6863ed878d63449648cb
-Section: Applications
-Description: TikTok CN app for Low iOS
-Author: Tomkids
-Icon: https://tomkidss.github.io/cydia/icons/oldtiktokcn.png
-Name: OldTikTokCN
-
 Package: tomkids.facebook
 Version: 11.0
 Architecture: iphoneos-arm
@@ -1126,22 +1073,6 @@ Author: Tomkids
 Icon: https://tomkidss.github.io/cydia/icons/foobar2000.png
 Name: Foobar2000
 
-Package: tomkids.iBooks
-Version: 3.1.3
-Architecture: iphoneos-arm
-Maintainer: Tomkids
-Depends: firmware (< 7.0)
-Filename: debs/tomkids.iBooks_3.1.3-1_iphoneos-arm.deb
-Size: 29766586
-MD5sum: 76d7700188b2b04a29cbb45af557fe43
-SHA1: fd168c2a4d3a48253c909196060cb187c9674965
-SHA256: a7601b171a2ca7fe4fb9ad5adb7787f5efff53d126d9467a6f8bb5a280680850
-Section: Applications
-Description: iBooks app for Low iOS
-Author: Tomkids
-Icon: https://tomkidss.github.io/cydia/icons/ibooks.png
-Name: iBooks_IOS6
-
 Package: tomkids.ibooks.ipa
 Version: 3.1.3
 Architecture: iphoneos-arm
@@ -1173,38 +1104,6 @@ Description: Nhạc của tui cho IOS thấp
 Author: Tomkids
 Icon: https://tomkidss.github.io/cydia/icons/nhaccuatui.png
 Name: NhacCuaTui
-
-Package: tomkids.ticktok
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: Clone by Tomkids
-Depends: firmware (< 8.0)
-Filename: debs/tomkids.ticktock_1.0_iphoneos-arm.deb
-Size: 8199882
-MD5sum: 93f1f85ec243f6f2e4c9d09e64aaa9de
-SHA1: c7a4ee8bd2a5fbecaba9cd65fd5fc915b632cfe1
-SHA256: 2811d5a27f57ace4cb2b59e119f410643d071e5126d862bcab9fea5e5af7f6ae
-Section: Applications
-Description: TikTok app for Low iOS
-Author: TikTok
-Icon: http://tomkidss.github.io/cydia/icons/tiktokios6.png
-Name: TikTok_Cookie
-
-Package: tomkids.ticktok
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: Clone by Tomkids
-Depends: firmware (< 8.0)
-Filename: debs/tomkids.ticktock_cookie_1.0_iphoneos-arm.deb
-Size: 8199882
-MD5sum: 93f1f85ec243f6f2e4c9d09e64aaa9de
-SHA1: c7a4ee8bd2a5fbecaba9cd65fd5fc915b632cfe1
-SHA256: 2811d5a27f57ace4cb2b59e119f410643d071e5126d862bcab9fea5e5af7f6ae
-Section: Applications
-Description: TikTok app for Low iOS
-Author: TikTok
-Icon: http://tomkidss.github.io/cydia/icons/tiktokios6.png
-Name: TikTok_Cookie
 
 Package: tomkids.ticktok-ios6
 Version: 1.0
@@ -1351,22 +1250,6 @@ Section: Archiving
 Priority: important
 Description: de-compesses files in zip format
 
-Package: vn.dinhle.tweaks.saybye
-Version: 2.0.0-1+debug
-Architecture: iphoneos-arm
-Maintainer: TomKids
-Installed-Size: 256
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/vn.dinhle.tweaks.saybye_2.0.0-1+debug_iphoneos-arm.deb
-Size: 8544
-MD5sum: 0f354a24cb8a7e08766e9ffc8a6f571f
-SHA1: d602c181ba8c11e40d2207155ccb96363ccf27c8
-SHA256: 857c6906b499bf00405ac691185b0976e605894c79c14cacfa5a7e19f5c9f0f2
-Section: Tweaks
-Description: Show a customizable hello alert inside Settings on iOS 5 to 8.
-Author: TomKids
-Name: Đình Lê Say Bye
-
 Package: vn.gsm.apploader
 Version: 1.0
 Architecture: iphoneos-arm
@@ -1408,46 +1291,6 @@ Description: AppSync allows you to sync and install cracked iOS applications.
 Author: Dissident <repo@cydia.vn>
 Depiction: http://cydia.gsm.vn/t2086/
 Name: AppSync for iOS 5.0+
-Sponsor: Cydia.vn Blog's <http://cydia.vn/>
-
-Package: vn.gsm.auxo.org
-Version: 1.4-2
-Architecture: iphoneos-arm
-Maintainer: Cydia.vn <repo@cydia.vn>
-Installed-Size: 2127
-Depends: gsmicon, firmware (>= 5.1), mobilesubstrate, preferenceloader, applist
-Conflicts: vn.gsm.auxo
-Filename: debs/tomkids.auxo.org_1.4-2_iphoneos-arm.deb
-Size: 878
-MD5sum: e20f44c5048bfda48e1a714e49008ab5
-SHA1: c6b517bcebc6e1fba69346ed397fc86594bf7feb
-SHA256: 7b1b6da09e347f8678415e784264ae8435695507a9b20e067432412619b7ae25
-Section: !GSMVN-Tools
-Homepage: http://cydia.vn/
-Description: A fantastic re-imagined multitasking bar!
-Author: A3tweaks
-Depiction: http://cydia.gsm.vn/t4264/
-Icon: file:///Library/PreferenceLoader/Preferences/AuxoIcon@2x.png
-Name: Auxo (Original)
-Sponsor: Cydia.vn Blog's <http://cydia.vn/>
-
-Package: vn.gsm.backtodeb
-Version: 0.9b7
-Architecture: iphoneos-arm
-Maintainer: Cydia.vn <repo@cydia.vn>
-Depends: grep, coreutils, sed
-Filename: debs/tomkids.backtodeb_0.9b7_iphoneos-arm.deb
-Size: 98602
-MD5sum: d8e3b8d5227a195f0ec04266c3cb71cc
-SHA1: 0842ae832e5c0540d732f2e3edbfa50a483bc10a
-SHA256: 0d4fda3e5969b09d125c288d919072d2c35aa6390171209b51e9d50aaba7a7a2
-Section: !CydiaVn-Tools
-Homepage: http://cydia.vn/
-Description: Backup deb's file script
-Author: Redenfire <repo@cydia.vn>
-Depiction: http://cydia.vn/depic/t1191/
-Icon: file:///Applications/BTD.app/Icon.png
-Name: BackToDeb
 Sponsor: Cydia.vn Blog's <http://cydia.vn/>
 
 Package: vn.gsm.barrel
@@ -1709,25 +1552,6 @@ Icon: file:///Applications/springtomizeapp.app/Icon.png
 Name: Springtomize2-Localizations
 Sponsor: thebigboss.org <http://thebigboss.org>
 
-Package: vn.gsm.videopane
-Version: 2.0.6k
-Architecture: iphoneos-arm
-Maintainer: Cydia.vn <repo@cydia.vn>
-Depends: mobilesubstrate (>= 0.9.5001), firmware (>= 5.0), preferenceloader (>= 2.2.2), libactivator (>= 1.9.5), applist (>= 1.5.9), com.rpetrich.rocketbootstrap (>= 1.0.2) | firmware (<< 7.0)
-Filename: debs/tomkids.videopane_2.0.6k_iphoneos-arm.deb
-Size: 451816
-MD5sum: 8a837524460d52048af0c852fc59de89
-SHA1: 169be2d5dcc8c46d4421c5893021adf5cfe421cb
-SHA256: 23ff7c1648fcfe1dc4c0f821768513a35119c3991081c1f3833284caca68e367
-Section: !CydiaVn-Tools
-Homepage: http://cydia.vn/
-Description: Picture-in-picture for video; multitask while playing movies
-Author: Ryan Petrich
-Depiction: http://cydia.vn/depic/t4582/
-Icon: file:///System/Library/PreferenceLoader/Preferences/VideoPane/VideoPane@2x.png
-Name: VideoPane
-Sponsor: Cydia.vn Blog's <http://cydia.vn/>
-
 Package: vn.gsm.zephyr
 Version: 1.6.4-1
 Architecture: iphoneos-arm
@@ -1781,22 +1605,6 @@ Section: Tweaks
 Description: Show a customizable popup inside Settings on iOS 5 to 8.
 Author: TomKids
 Name: PopUp Hello Setting
-
-Package: vn.tomkids.tweaks.sayhi
-Version: 1.0.1-3+debug
-Architecture: iphoneos-arm
-Maintainer: TomKids
-Installed-Size: 264
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/vn.tomkids.tweaks.sayhi_1.0.1-3+debug_iphoneos-arm.deb
-Size: 7868
-MD5sum: 4cad7105402a487fc58943d66d78afc6
-SHA1: c1e57ad6be0fd9426c142a3082addad1e28d84e2
-SHA256: 47b165c078cfcc6a2fecd260304cc2f8480dba9a1ac2f4ad712b799502f73358
-Section: Tweaks
-Description: Show a custom hello alert inside Settings on iOS 5 to 8.
-Author: TomKids
-Name: TomKids Say Hi
 
 Package: vn.tomkids.tweaks.sayhi
 Version: 2.0.0-1+debug
