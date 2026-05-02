@@ -1179,6 +1179,22 @@ Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: Clone by Tomkids
 Depends: firmware (< 8.0)
+Filename: debs/tomkids.ticktock_1.0_iphoneos-arm.deb
+Size: 8199882
+MD5sum: 93f1f85ec243f6f2e4c9d09e64aaa9de
+SHA1: c7a4ee8bd2a5fbecaba9cd65fd5fc915b632cfe1
+SHA256: 2811d5a27f57ace4cb2b59e119f410643d071e5126d862bcab9fea5e5af7f6ae
+Section: Applications
+Description: TikTok app for Low iOS
+Author: TikTok
+Icon: http://tomkidss.github.io/cydia/icons/tiktokios6.png
+Name: TikTok_Cookie
+
+Package: tomkids.ticktok
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Clone by Tomkids
+Depends: firmware (< 8.0)
 Filename: debs/tomkids.ticktock_cookie_1.0_iphoneos-arm.deb
 Size: 8199882
 MD5sum: 93f1f85ec243f6f2e4c9d09e64aaa9de
@@ -1205,6 +1221,57 @@ Description: TikTok app for Low iOS
 Author: TikTok
 Icon: http://tomkidss.github.io/cydia/icons/tiktokios6.png
 Name: TikTok
+
+Package: tomkids.ticktok.cookie
+Version: 1.0-1
+Architecture: iphoneos-arm
+Maintainer: TikTok
+Depends: firmware (< 8.0)
+Filename: debs/tomkids.ticktok.cookie_1.0-1_iphoneos-arm.deb
+Size: 8202844
+MD5sum: 85cd0431236b6d91706791efee7aaf2e
+SHA1: 3ffe12a199aaabc4e07d33ab5a8931fa81e739c9
+SHA256: 24a02b7d6fab9df99d04f8d1ab678e85a9374ecd6094b78ae3718362221c21ba
+Section: Applications
+Description: TikTok app fix for Low iOS
+ TikTok phiên bản đã fix dành cho iOS thấp (iOS 6/7/8).
+ .
+ TÍNH NĂNG:
+ - Fix lỗi văng app khi mở
+ - Sử dụng bản patch (armv7_patched)
+ - Tương thích thiết bị đời cũ (iPhone 4s, 5)
+ - Tối ưu hiệu năng và giảm crash
+ .
+ HƯỚNG DẪN CÀI ĐẶT:
+ 1. Cài AppSync Unified (repo: cydia.akemi.ai)
+ 2. Cài package TikTok_Fixed từ Cydia
+ 3. Respring thiết bị
+ 4. Mở app để kiểm tra
+ .
+ HƯỚNG DẪN COPY COOKIE (QUAN TRỌNG):
+ Do TikTok bản cũ không đăng nhập trực tiếp được, cần dùng cookie.
+ .
+ Cách lấy cookie:
+ - Dùng điện thoại mới / PC đăng nhập TikTok
+ - Mở trình duyệt → đăng nhập TikTok Web
+ - Dùng DevTools (F12) → tab Application → Cookies
+ - Copy giá trị cookie (sessionid hoặc toàn bộ)
+ - Hoặc copy cookie sẵn này:
+ _ttp=3CDCH9ngGRxkaduGBlwolFi5VJY; tt_chain_token=n/TN79LlO67uQWUM1UZwCg==; x-web-secsdk-uid=635e9009-b0c7-4dfc-b330-576a46074a17; tiktok_webapp_theme_source=auto; tiktok_webapp_theme=light; g_state={"i_l":0,"i_ll":1777627719644,"i_b":"iN6ltYuLWa2MQBYOxwp4zud0TXRYkuC9agxfX8S07Ko","i_e":{"enable_itp_optimization":0},"i_et":1777627719632}; s_v_web_id=verify_mompo2n2_dfvdunC5_7qH1_4YHO_ARMq_Ms787u0knXK2; multi_sids=7548968057387140114%3Ac40fe194993c24620daf2b319f2ca3c0; cmpl_token=AgQYAPOF_hfkTtK4_bzUMWYdK_OV6MhumP-QDmCnig0; passport_auth_status=3029085c0aee6ca7dc2cd4b6986765f0%2C; passport_auth_status_ss=3029085c0aee6ca7dc2cd4b6986765f0%2C; sid_guard=c40fe194993c24620daf2b319f2ca3c0%7C1777627757%7C15552000%7CWed%2C+28-Oct-2026+09%3A29%3A17+GMT; uid_tt=70aee4193780c5eb0eef2a1417aeba7928a1cd0ca1b3c4de4f7483ee584fa0b9; uid_tt_ss=70aee4193780c5eb0eef2a1417aeba7928a1cd0ca1b3c4de4f7483ee584fa0b9; sid_tt=c40fe194993c24620daf2b319f2ca3c0; sessionid=c40fe194993c24620daf2b319f2ca3c0; sessionid_ss=c40fe194993c24620daf2b319f2ca3c0; tt_session_tlb_tag=sttt%7C4%7CxA_hlJk8JGINrysxnyyjwP_________zPUJU94hyNrk2frillHvC1RvZ19DRcDg6jp_He0G7fhw%3D; sid_ucp_v1=1.0.1-KGRjOTEzNzVjNTY0ZDNiYzY3MTAzN2NkOGIwZDI1ZTUwZTI2MTUxMjgKIQiSiNPKu87U4WgQ7eTRzwYYswsgDDClpY3GBjgIQBJIBBADGgNzZzEiIGM0MGZlMTk0OTkzYzI0NjIwZGFmMmIzMTlmMmNhM2MwMk4KIJPrNHqSE4ttJMnW_tQ1YZ9musqUKq8Kvrjx_dRw9CG_EiAfXwyt6-UVlgbpyftUqK5XnFier7eoRGhBHIwr9OCs1xgDIgZ0aWt0b2s; ssid_ucp_v1=1.0.1-KGRjOTEzNzVjNTY0ZDNiYzY3MTAzN2NkOGIwZDI1ZTUwZTI2MTUxMjgKIQiSiNPKu87U4WgQ7eTRzwYYswsgDDClpY3GBjgIQBJIBBADGgNzZzEiIGM0MGZlMTk0OTkzYzI0NjIwZGFmMmIzMTlmMmNhM2MwMk4KIJPrNHqSE4ttJMnW_tQ1YZ9musqUKq8Kvrjx_dRw9CG_EiAfXwyt6-UVlgbpyftUqK5XnFier7eoRGhBHIwr9OCs1xgDIgZ0aWt0b2s; store-idc=alisg; store-country-code=vn; store-country-code-src=uid; tt-target-idc=alisg; tt-target-idc-sign=KqvID1UYN7vEoDdUR2lP948QAty2UKXQI1I6QEevAyimo9el4OnaMSVtNYeWnEmpQ5Ui4-csp6QTF3FpoaFiORyDVs4UuRUGLTHgto8-kl4tGZMDuZDMX66PoaPZHj8APsvDjL-ffo5t_hrCqZacCdL77SKN47i6WE7K7jau2ifazZQ8W6hJmTOm_SgKAb5U0l3tO0Bdv8zowNrSns_sgM1oIaW4zYMkI1Ic-cFmwwmhKvH8Takd0rWBA7Z3-Oy-RAh_6hUAXhUsJlI6ZUEOApXvsIYIkOXBBgAspEq_7f4nQjugFRIVLpGMKjz7H5Yf4iEMtagpm-esns_Nqns5_rmO_bSVLRa7QpEU1EO9SwhzMml4vDed8h7UkIWyfk30g6ulezNPKCQGbM_kjEaBRy2NTh3dLn4Fj1LH7tx8YxoPOCCqS6TWBKmpN1GfgNR3xPSe2cUr1uRGnPfhkA8U-jTuSw_YQRnz5fSkiLBsdPGn8rCIWqMMEmeXo0AlOvuV; last_login_method=google; tt_ticket_guard_has_set_public_key=1; perf_feed_cache={%22expireTimestamp%22:1778230800000%2C%22itemIds%22:[%227628226801042541831%22%2C%227623794007910518024%22%2C%227631067497487289621%22]}; tt_csrf_token=F4E6mMDK-1PX33G0ieim1O6NeO9BWuetb7Zo; passport_fe_beating_status=true; ttwid=1%7CShrc4DxPgXIn90f0nXazEcwZC97cdqUv3gfmJqCbBGU%7C1777627942%7C1171615d57b517456b3ed59f8f04ad8757297c8e6e7068aeb4dada02c0ba52f0; store-country-sign=MEIEDDA4ZBm7z80d6z5iqgQgX5kT4wL9PFLMHYb_QOiXhFDhtWHUw7-VQrmJ5a6ihaYEEDh8I_qigAEL27ydMu95vBM; odin_tt=0746dcaf425ea5ddd51b143feab6e8ea7166775535e35df44e4765e3a7dccc2cda3a1331f6b6fb96a70d4c81d57ea4fa755456233d752ddba35d1ef228fe004fcc5e9b176f8c0c0d6aa078dd124e6871; msToken=ftz0qFqhe_eNYgbK1FWx1KM70NwdHBBM6LABn2PAktDf4dB_bwjZ1UeoGThQSf3AnRfgA1PmPCfUtoeoY7srtRcNcZV2NlL5v-3dReqM8FHz0AYDWKdmMAC5yAbf4klXrppulSjGKw_Xfrh9amR1nU8e; msToken=hYjymO83VcAlv-oAGoZN_dWEWm0jHW-Zz42R-FAM5KUdNrFEQhxdHl-vtw5yW3TfM2EwHTs8nZF6Dekru5v3YO1LPC3495HvIkZzBlY9lHQyKk_ZT44yCHSl-JrgoEd-Gfj2oGBF5kihRxhM1nthHp8w
+ .
+ Cách sử dụng:
+ - Mở file session.txt trong app (nếu có)
+ - Dán cookie vào
+ - Hoặc dùng tweak hỗ trợ inject cookie
+ .
+ LƯU Ý:
+ - Không đăng nhập bằng tài khoản mới trực tiếp trong app
+ - Nên dùng tài khoản phụ
+ - Một số tính năng có thể không hoạt động do API cũ
+ - Cần jailbreak + AppSync để chạy
+Author: TikTok
+Icon: http://tomkidss.github.io/cydia/icons/tiktokios6.png
+Name: TikTok_Cookie
 
 Package: tomkids.ticktokfixed
 Version: 1.0
