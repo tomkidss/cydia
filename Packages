@@ -750,6 +750,26 @@ Depiction: https://cydia.preloading.dev/depictions/tubereplacer/1.0/
 Icon: file:///Library/PreferenceBundles/TubeReplacerPrefs.bundle/icon@full.png
 Name: TubeReplacer
 
+Package: dev.preloading.tubereplacer
+Version: 1.0.5
+Architecture: iphoneos-arm
+Maintainer: Preloading <me@preloading.dev>
+Installed-Size: 960
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 5.0), firmware (<< 11.0)
+Conflicts: bag.xml.tuberepair
+Filename: debs/dev.preloading.tubereplacer_1.0.5_iphoneos-arm.deb
+Size: 325930
+MD5sum: eeffba29ce38081ed0ad2fc95e8401f0
+SHA1: 69127a7bceacc198292c9b37c345453f1b92620e
+SHA256: 07c22e4f6f52014e4a5d9b48d30b097897933d5dbecb70beaf4050bc7d8a535e
+Section: Tweaks
+Homepage: https://cydia.preloading.dev/depictions/tubereplacer/1.0/
+Description: A fix for YouTube with sign-in.
+Author: Preloading <me@preloading.dev>
+Depiction: https://cydia.preloading.dev/depictions/tubereplacer/1.0/
+Icon: file:///Library/PreferenceBundles/TubeReplacerPrefs.bundle/icon@full.png
+Name: TubeReplacer
+
 Package: dpkg
 Version: 1.18.10-12
 Architecture: iphoneos-arm
@@ -1088,6 +1108,23 @@ Description: Copy iBooks IPA to /var/mobile/Media/Downloads
 Author: Tomkids
 Icon: https://tomkidss.github.io/cydia/icons/ibooks.png8
 Name: iBooks IPA
+
+Package: tomkids.iconrepo
+Version: 1.0
+Architecture: iphoneos-arm
+Essential: yes
+Maintainer: Tomkids
+Filename: debs/com.tomkids.repoicon_1.0_iphoneos-arm.deb
+Size: 809890
+MD5sum: 885e5c076f7cb89e5fda9c255be733bf
+SHA1: 869f97697d86cb20ed10f232593788854eab82a6
+SHA256: 88e961decfe6fb4f52cb7c314225630cf058ad85794daaedc70766b28ada59aa
+Section: System
+Description: Biểu tượng Cydia Tomkids's tweaks
+Author: Tomkids
+Depiction: http://tomkidss.github.io/cydia/icons/applications.png
+Icon: file:///Applications/Cydia.app/Sections/Applications.png
+Name: Tomkids's Repo icon
 
 Package: tomkids.nhaccuatui
 Version: 5.3.1
