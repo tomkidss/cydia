@@ -1109,23 +1109,6 @@ Author: Tomkids
 Icon: https://tomkidss.github.io/cydia/icons/ibooks.png8
 Name: iBooks IPA
 
-Package: tomkids.iconrepo
-Version: 1.0
-Architecture: iphoneos-arm
-Essential: yes
-Maintainer: Tomkids
-Filename: debs/com.tomkids.repoicon_1.0_iphoneos-arm.deb
-Size: 809890
-MD5sum: 885e5c076f7cb89e5fda9c255be733bf
-SHA1: 869f97697d86cb20ed10f232593788854eab82a6
-SHA256: 88e961decfe6fb4f52cb7c314225630cf058ad85794daaedc70766b28ada59aa
-Section: System
-Description: Biểu tượng Cydia Tomkids's tweaks
-Author: Tomkids
-Depiction: http://tomkidss.github.io/cydia/icons/applications.png
-Icon: file:///Applications/Cydia.app/Sections/Applications.png
-Name: Tomkids's Repo icon
-
 Package: tomkids.nhaccuatui
 Version: 5.3.1
 Architecture: iphoneos-arm
@@ -1612,6 +1595,22 @@ Depiction: http://cydia.gsm.vn/t2238/
 Icon: file:///Library/PreferenceLoader/Preferences/Zephyr@2x.png
 Name: Zephyr
 Sponsor: Cydia.vn Blog's <http://cydia.vn/>
+
+Package: vn.tomkids.repoicon
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: Tomkids
+Depends: firmware (>= 2.0)
+Filename: debs/tomkids.repoicon_1.0.1_iphoneos-arm.deb
+Size: 795400
+MD5sum: f88148e7b91f6dece7266d98f45468a1
+SHA1: 2019a26f50d77c81c3fa892169a05982bf4fc751
+SHA256: f0c4ddd278c6e9f62a9ae8d9efb01136e7ac56b196af485d228918810220e55b
+Section: Tweaks
+Priority: optional
+Description: Copy Tomkids repo Applications.png icon into Cydia Sections folder.
+Author: Tomkids
+Name: Tomkids' repo icon
 
 Package: vn.tomkids.tweaks.ncmusicpanel
 Version: 3.2.0-2+debug

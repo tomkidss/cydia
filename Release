@@ -1,8 +1,21 @@
-Origin: Tomkids's Cydia
-Label: Tomkids Cydia
-Suite: stable
-Version: 2.0
-Codename: ios
-Architectures: iphoneos-arm
-Components: main
-Description: Kho ứng dụng & tweak iOS cổ của @Tomkids
+Date: Sun, 03 May 2026 09:40:22 +0000
+MD5Sum:
+ 4ec75a142d5be02ee0ae78d36f5b757e            69621 Packages
+ d5f208426623a3d4776d4ee40f6cc6e0            21907 Packages.bz2
+ 10f9b84b410e2b819e9269dac01f4be0               38 Release
+ b244c8238435977cb8ec37c67f837e99              861 debs/Packages
+SHA1:
+ 0036e2fd8c9d0e9db3b86b27fce3982f80878ddc            69621 Packages
+ 5f1cd5bb6a1120f1bf2fb4f80f40b4b91d10bd7d            21907 Packages.bz2
+ 825643879e7d2697d04a6d5e671317d44c67bce7               38 Release
+ 83ccf082aaf6a148c66684952e08390cbe494c89              861 debs/Packages
+SHA256:
+ d1b9a7dedfeade210198db217e2f157f6e264ce06ef8cccf7912f8c4054b19c8            69621 Packages
+ 643575d77a0f2cac21ac909a4eeb66119d058551e7fe0f3e1a7a21d2dea5eb0c            21907 Packages.bz2
+ 4869a8088a4f88ccd3d15ca9d85403c316ae54f91db7af0bd4298c2f4e72c422               38 Release
+ 3e2e2b33fa068e5e25d76ae2cd0d7b368264ad468aaadf41cb101c4cf14e74f0              861 debs/Packages
+SHA512:
+ 2f60ffeb2acca1e40a71cb443fa85542247441a158c8dda080af4ea929211cb5d8da8233c646c05e3b4984fe67f19478f6f926ca8110fd6b878afac0025859c4            69621 Packages
+ 09a2a62f412f7f4075bc71671eb90e8e30407c29f597cf5b8dbef6bb74c00b9ee63bd78f9372530435b5c808b37538af5b922e49029adc445eaeea91518dad11            21907 Packages.bz2
+ 36d96145374c58e517cd3b0ef33c5b0d591a6159805ced46e826cf5ac4aca0e2197ac809724447414584df0f118c8a3003297e485384a110c4d4df139ad91761               38 Release
+ d0bac9a9fe0b0e5a2dfde4af2df61f3873c000da27d23d2307c1de289d044cfc7f0bf95c586d948d009888d48fd799dfe18e8daa60578d30984a8c8b38d2610a              861 debs/Packages
