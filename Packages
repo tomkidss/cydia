@@ -619,6 +619,22 @@ Author: tuanem
 Name: SHSHchecker cli
 
 Package: com.tuanem.ytbackground
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Tuanem
+Installed-Size: 40
+Depends: mobilesubstrate
+Filename: debs/tomkids.ytbackground_1.0_iphoneos-arm.deb
+Size: 4990
+MD5sum: 93e7ac8e7d8393f318977bfe87f1f8ac
+SHA1: 86be0940de4628a8de2cf0686ca9c872806b748d
+SHA256: 8ea4e3c8163d7ee030158d6fadd25cdd91cf19c081349c3f0ba913a3ba427ff3
+Section: Tweaks
+Description: Background Playback for YouTube 1.0.0+
+Author: Tuanem
+Name: YTBackground
+
+Package: com.tuanem.ytbackground
 Version: 1.1
 Architecture: iphoneos-arm
 Maintainer: Tuanem
@@ -713,6 +729,26 @@ Section: Utilities
 Priority: required
 Description: pretty much just run-parts. yep? run-parts
 Name: Debian Utilities
+
+Package: dev.preloading.tubereplacer
+Version: 1.0.4.3
+Architecture: iphoneos-arm
+Maintainer: Preloading <me@preloading.dev>
+Installed-Size: 956
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 5.0), firmware (<< 11.0)
+Conflicts: bag.xml.tuberepair
+Filename: debs/tomkids.tubereplacer_1.0.4.3_iphoneos-arm.deb
+Size: 321868
+MD5sum: ee6f182a5e9be43453cab2f3ed1db624
+SHA1: 75115bd16f43dc0f8ed2be367c64b00df19bb863
+SHA256: 08e07a334d1edbc96c40a787d68a7ea828c9a22ae516cb56d06d6db28c3bb7ff
+Section: Tweaks
+Homepage: https://cydia.preloading.dev/depictions/tubereplacer/1.0/
+Description: An fix for YouTube with sign-in.
+Author: Preloading <me@preloading.dev>
+Depiction: https://cydia.preloading.dev/depictions/tubereplacer/1.0/
+Icon: file:///Library/PreferenceBundles/TubeReplacerPrefs.bundle/icon@full.png
+Name: TubeReplacer
 
 Package: dev.preloading.tubereplacer
 Version: 1.0.5
@@ -1324,6 +1360,26 @@ Size: 2743734
 MD5sum: bdfefd02abdb227a7394d29a8e3aad67
 SHA1: a898b2446a0a2b0ebe1e7e8c186405814bd75b99
 SHA256: 162df6f3e7f478dffc33b795d3d4830f93afe2e38fa746d4c575b60e8f426e90
+Section: !GSMVN-Tools
+Homepage: http://cydia.vn/
+Description: beautiful animated flip clock widget for the notification center.
+Author: VladMax Soft
+Depiction: http://cydia.gsm.vn/t4132/
+Icon: file:///Library/PreferenceBundles/FlipClockWidgetPrefs.bundle/fcprefs2@2x.png
+Name: Flip Clock for Notification Center
+Sponsor: Cydia.vn Blog's <http://cydia.vn/>
+
+Package: vn.gsm.flipclockwidget
+Version: 1.3.3-3
+Architecture: iphoneos-arm
+Maintainer: Cydia.vn <repo@cydia.vn>
+Installed-Size: 2919
+Depends: firmware (>= 5.0), mobilesubstrate, com.chpwn.weeloader, preferenceloader
+Filename: debs/tomkids.flipclockwidget_1.3.3-3_iphoneos-arm_FIXED.deb
+Size: 2586722
+MD5sum: 0d076a06b7259b82da30c44e78032721
+SHA1: 14e8c23b79ad61dd541b5a6c7387679d8ace54ff
+SHA256: e437972494acc418e19ffccdeaa6a35c7ad4ec172177edc695c79b7af07b2f3c
 Section: !GSMVN-Tools
 Homepage: http://cydia.vn/
 Description: beautiful animated flip clock widget for the notification center.
