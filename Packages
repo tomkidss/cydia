@@ -1193,15 +1193,15 @@ Icon: http://tomkidss.github.io/cydia/icons/tiktokios6.png
 Name: TikTok_Cookie
 
 Package: tomkids.ticktokfixed
-Version: 2.0
+Version: 1.0
 Architecture: iphoneos-arm
-Maintainer: Fix by TuanEm & Tomkids
-Depends: firmware (>= 5.0)
-Filename: debs/tomkids.ticktokfixed_2.0_iphoneos-arm.deb
-Size: 20342664
-MD5sum: f7e736d870c2eb073af1a1bc9598e50a
-SHA1: 84392465af785170665255b1005bf9517d5b5622
-SHA256: cffc6afeebb5cb93fc654fb23ac3c2e936f0e3cda010b5238bd393048d8492f7
+Maintainer: Fix by TuanEm
+Depends: firmware (<= 8.0)
+Filename: debs/tomkids.ticktokfixed_1.0_iphoneos-arm.deb
+Size: 20342476
+MD5sum: 78bd4d008af967638b0bb67a79ec3f6c
+SHA1: 77680030c6e6f3c271840d01cc6828c96cd3462e
+SHA256: 7e5d27a673ef0077386252c5a6cd6ba9b0314546ccd6ceaaadb1be3252c55e72
 Section: Applications
 Description: TikTok app fix for Low iOS
 Author: Fix by TuanEm
