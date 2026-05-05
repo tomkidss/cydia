@@ -1,8 +1,8 @@
-Origin: Tomkids's Repo
-Label: Tomkids Repo
+Origin: Tomkids's Cydia
+Label: Tomkids Cydia
 Suite: stable
 Version: 2.0
 Codename: ios
 Architectures: iphoneos-arm
 Components: main
-Description: Kho ứng dụng & tweak iOS cổ của @Tomkids
+Description: Kho ứng dụng & tweak iOS cổ của Tomkids
